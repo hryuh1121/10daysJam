@@ -16,6 +16,9 @@ public class TyphoonScript : MonoBehaviour
     [SerializeField]
     private int rotatestate;
 
+    [SerializeField]
+    private float scale;
+
     // Start is called before the first frame update
     void Start()
     {
