@@ -9,15 +9,23 @@ public class TyphoonScript : MonoBehaviour
     private int rotate;
 
     //スティックの角度
-    [SerializeField]
     private float radian;
 
-    //
-    [SerializeField]
     private int rotatestate;
 
     [SerializeField]
-    private float scale;
+    private bool isShot = false;
+
+    //台風のスピードに掛ける係数
+    [SerializeField]
+    private float speed;
+
+    //次のシーンに行くか
+    private bool isEnd;
+
+    //leapを掛ける割合
+    //[SerializeField, Range(0.001f, 0.01f)]
+    //private float positionLerpSpeed = 0.001f;
 
     // Start is called before the first frame update
     void Start()
@@ -25,15 +33,43 @@ public class TyphoonScript : MonoBehaviour
         rotate = 0;
         radian = 0;
         rotatestate = 0;
+        isShot = false;
+        isEnd = false;
+        //speed = 0.01f;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(isEnd)
+        {
+            return;
+        }
+
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
 
         radian = Mathf.Atan2(v, h) * Mathf.Rad2Deg;
+
+        //発射する前なら回転数追加
+        if (!isShot)
+        {
+            GetRotate();
+            speed = rotate * 0.01f;
+        }
+
+        Shot();
+
+
+
+        //回転数によって視覚的に分かるようにする
+        //float a = 1 + rotate / 10;
+        //transform.localScale = new Vector3(1, a, 0);
+    }
+
+    //回転数取得関数
+    void GetRotate()
+    {
 
         if (rotatestate == 0 && radian == 45)
         {
@@ -55,11 +91,11 @@ public class TyphoonScript : MonoBehaviour
         {
             rotatestate = 5;
         }
-        if(rotatestate == 5 && radian == -90)
+        if (rotatestate == 5 && radian == -90)
         {
             rotatestate = 6;
         }
-        if(rotatestate == 6 && radian == -45)
+        if (rotatestate == 6 && radian == -45)
         {
             rotatestate = 7;
         }
@@ -67,6 +103,44 @@ public class TyphoonScript : MonoBehaviour
         {
             rotatestate = 0;
             rotate += 1;
+        }
+    }
+
+    //スティックをはじいたときに発射する
+    void Shot()
+    {
+        var h = Input.GetAxis("Horizontal");
+        var v = Input.GetAxis("Vertical");
+
+        //回転数が1以上でスティックを離したとき
+        if (rotate >= 1)
+        {
+            if (h == 0 && v == 0)
+            {
+                isShot = true;
+            }
+        }
+
+
+
+        if (isShot)
+        {
+            //{//Leapを使った減速
+            //    Vector3 posTo = new Vector3(rotate * 10, 0, 0);
+            //    transform.position = Vector3.Lerp(transform.position, posTo, positionLerpSpeed);
+            //}
+
+            {//乗算を使った減速
+                transform.position += new Vector3(speed, 0, 0);
+                if (speed > 0.001f)
+                {
+                    speed *= 0.999f;
+                }
+                else
+                {
+                    speed = 0;
+                }
+            }
         }
     }
 }

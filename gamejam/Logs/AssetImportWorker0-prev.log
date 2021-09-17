@@ -15,11 +15,11 @@ C:/10daysJam/gamejam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61754
+51190
 Successfully changed project path to: C:/10daysJam/gamejam
 C:/10daysJam/gamejam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,160 +35,192 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002850 seconds.
+Registered in 0.003249 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe
 Mono: successfully reloaded assembly
-- Completed reload, in  1.611 seconds
+- Completed reload, in  1.710 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007366 seconds.
+Registered in 0.006007 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.351 seconds
+- Completed reload, in  1.314 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.3 MB.
 System memory in use after: 67.4 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1818.
-Total: 3.161900 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.731400 ms  DeleteObjects: 0.127200 ms)
+Total: 2.249500 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.892400 ms  DeleteObjects: 0.147400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/honda
-  artifactKey: Guid(9d3f92787f90bd446afa0127054ddbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/honda using Guid(9d3f92787f90bd446afa0127054ddbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdc4d2868645c3d706f32042c641c2d') in 0.011974 seconds
-  Import took 0.014271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/honda/Typhoon.png
-  artifactKey: Guid(71447878051cc5f448905c01b24739ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/honda/Typhoon.png using Guid(71447878051cc5f448905c01b24739ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35cb9eaba1c90c0240d965286d7ba69') in 0.222202 seconds
-  Import took 0.225969 seconds .
+  path: Assets/honda/TyphoonScript.cs
+  artifactKey: Guid(8c4c0f3df1ab7d04ba6809b820c0997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/honda/TyphoonScript.cs using Guid(8c4c0f3df1ab7d04ba6809b820c0997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1561dc2de0cfaf555a21cd4512799c4f') in 0.071487 seconds
+  Import took 0.075410 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005545 seconds.
+Registered in 0.006195 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.214 seconds
+- Completed reload, in  1.271 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1383 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.4 MB.
-System memory in use after: 70.5 MB.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1827.
-Total: 2.206800 ms (FindLiveObjects: 0.164900 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.904500 ms  DeleteObjects: 0.093800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1822.
+Total: 2.706500 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.302500 ms  DeleteObjects: 0.077900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 2.240500 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.880000 ms  DeleteObjects: 0.077800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.820178 seconds.
-  path: Assets/Sunnyland
-  artifactKey: Guid(3a90df78b21b3cb4a918c8441d44a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sunnyland using Guid(3a90df78b21b3cb4a918c8441d44a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfd221437f4f53e5959fc1cf8faa31d') in 0.010337 seconds
-  Import took 0.015707 seconds .
+  Time since last request: 381.403754 seconds.
+  path: Assets/honda/ScoreScript.cs
+  artifactKey: Guid(650a3d3a4834cbe45ab333bdc82db098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/honda/ScoreScript.cs using Guid(650a3d3a4834cbe45ab333bdc82db098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e41b1a02ab9d71ffd03c745e1ec08f') in 0.027867 seconds
+  Import took 0.034270 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1828.
+Total: 2.155100 ms (FindLiveObjects: 0.177900 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.813400 ms  DeleteObjects: 0.117900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.485861 seconds.
-  path: Assets/Teshi
-  artifactKey: Guid(eba84aaee8db6d34997dbb322df37557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi using Guid(eba84aaee8db6d34997dbb322df37557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4341fba9c78afa86500924f884f91acd') in 0.008896 seconds
-  Import took 0.011863 seconds .
+  Time since last request: 466.079484 seconds.
+  path: Assets/honda/ScoreScript.cs
+  artifactKey: Guid(650a3d3a4834cbe45ab333bdc82db098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/honda/ScoreScript.cs using Guid(650a3d3a4834cbe45ab333bdc82db098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7139f7b22f7de8f43bd1f58c9b007515') in 0.009225 seconds
+  Import took 0.012406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 2.624100 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.173400 ms  DeleteObjects: 0.097500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.254996 seconds.
-  path: Assets/Teshi/Font
-  artifactKey: Guid(c9aec4bed3ea18145be1cadae386c14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font using Guid(c9aec4bed3ea18145be1cadae386c14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2056f6fb9d00a03e93c33cc120c506b4') in 0.009766 seconds
-  Import took 0.014446 seconds .
+  Time since last request: 171.252123 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0de6432ead40d5048946c8e62059cf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0de6432ead40d5048946c8e62059cf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a52056d5bdcab67576d5cec8c8d86a') in 0.014461 seconds
+  Import took 0.017613 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.055705 seconds.
-  path: Assets/Teshi/Font/07にくまるフォント.otf
-  artifactKey: Guid(e9a842a617b712241828ad0372237dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/07にくまるフォント.otf using Guid(e9a842a617b712241828ad0372237dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c84643067f0339032f268b41097785c') in 0.178178 seconds
-  Import took 0.181288 seconds .
+  Time since last request: 9.359264 seconds.
+  path: Assets/Sunnyland/Scenes/demo.unity
+  artifactKey: Guid(cbd2611183a8d41e8b5ae48b2b35bbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/Scenes/demo.unity using Guid(cbd2611183a8d41e8b5ae48b2b35bbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0e86f71cb100ade5477aca6d7aa7c8') in 0.024505 seconds
+  Import took 0.027549 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Teshi/Font/rounded-x-mplus-1c-black.ttf
-  artifactKey: Guid(709efb4de5ea1e6499bd4aa0b2b388cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/rounded-x-mplus-1c-black.ttf using Guid(709efb4de5ea1e6499bd4aa0b2b388cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e6b6766c9bcc697ab30ec9c272ef18') in 0.041485 seconds
-  Import took 0.044935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Teshi/Font/k8x12.ttf
-  artifactKey: Guid(7c6732bc6de576e44bd118f784c015e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/k8x12.ttf using Guid(7c6732bc6de576e44bd118f784c015e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3066080fcae99778b5dd512bbf2802') in 0.029451 seconds
-  Import took 0.032812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Teshi/Font/misaki_gothic.ttf
-  artifactKey: Guid(46ad4f865966cd54db4ec649ee96175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/misaki_gothic.ttf using Guid(46ad4f865966cd54db4ec649ee96175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469573a0514c86b9f87f85d085e6afa8') in 0.029478 seconds
-  Import took 0.033848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Teshi/Font/JiyunoTsubasa.ttf
-  artifactKey: Guid(fab74d7a11d5a7a49aad53d5a0804309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/JiyunoTsubasa.ttf using Guid(fab74d7a11d5a7a49aad53d5a0804309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ce48ef2fb1b64c15e0a9667aeb7d33') in 0.028294 seconds
-  Import took 0.030879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.555549 seconds.
-  path: Assets/Sunnyland/Scenes
-  artifactKey: Guid(5067ec585fac34dd6937038f96d8136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sunnyland/Scenes using Guid(5067ec585fac34dd6937038f96d8136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707648cc55fc2a454a7b07fb000eaf20') in 0.009868 seconds
-  Import took 0.012950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.256086 seconds.
+  Time since last request: 45.970603 seconds.
   path: Assets/honda/honda.unity
   artifactKey: Guid(23df0828577458f40ba54cf54e42333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/honda/honda.unity using Guid(23df0828577458f40ba54cf54e42333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22231d8118f16ed93a2d84ece2433ff1') in 0.010624 seconds
-  Import took 0.013896 seconds .
+Start importing Assets/honda/honda.unity using Guid(23df0828577458f40ba54cf54e42333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455f49c9f4410e98283a074c7c18f992') in 0.006269 seconds
+  Import took 0.010564 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000425 seconds.
+  Time since last request: 0.000982 seconds.
   path: Assets/honda/honda.unity
   artifactKey: Guid(23df0828577458f40ba54cf54e42333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/honda/honda.unity using Guid(23df0828577458f40ba54cf54e42333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22231d8118f16ed93a2d84ece2433ff1') in 0.005174 seconds
-  Import took 0.009150 seconds .
+Start importing Assets/honda/honda.unity using Guid(23df0828577458f40ba54cf54e42333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455f49c9f4410e98283a074c7c18f992') in 0.006590 seconds
+  Import took 0.010490 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 2.799800 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.361600 ms  DeleteObjects: 0.086200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
