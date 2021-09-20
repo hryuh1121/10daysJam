@@ -22,14 +22,11 @@ public class ScoreScript : MonoBehaviour
         //スコア表示
         scoreText.text = Score.ToString();
 
-        if(Input.GetKey(KeyCode.A))
-        {
-            AddScore();
-        }
     }
 
-    public void AddScore()
+    //スコア加算クラス
+    public void AddScore(int point)
     {
-        Score = Score + 10;
+        Score = Score + point;
     }
 }

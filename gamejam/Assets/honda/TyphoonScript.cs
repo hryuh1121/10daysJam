@@ -10,9 +10,9 @@ public class TyphoonScript : MonoBehaviour
 
     //スティックの角度
     private float radian;
-
     private int rotatestate;
 
+    //発射したか
     [SerializeField]
     private bool isShot = false;
 
@@ -20,8 +20,7 @@ public class TyphoonScript : MonoBehaviour
     [SerializeField]
     private float speed;
 
-    //次のシーンに行くか
-    private bool isEnd;
+    GameObject score;
 
     //leapを掛ける割合
     //[SerializeField, Range(0.001f, 0.01f)]
@@ -34,18 +33,13 @@ public class TyphoonScript : MonoBehaviour
         radian = 0;
         rotatestate = 0;
         isShot = false;
-        isEnd = false;
         //speed = 0.01f;
+        score = GameObject.Find("Canvas");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isEnd)
-        {
-            return;
-        }
-
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
 
@@ -59,7 +53,7 @@ public class TyphoonScript : MonoBehaviour
         }
 
         Shot();
-
+        
 
 
         //回転数によって視覚的に分かるようにする
@@ -135,6 +129,7 @@ public class TyphoonScript : MonoBehaviour
                 if (speed > 0.001f)
                 {
                     speed *= 0.999f;
+                    score.GetComponent<ScoreScript>().AddScore(1);
                 }
                 else
                 {
