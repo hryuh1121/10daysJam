@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'ja' Physical Memory: 8133 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'ja' Physical Memory: 16325 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,26 +11,26 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ranra/Documents/Gamejam/gamejam
+C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62407
-Successfully changed project path to: C:/Users/ranra/Documents/Gamejam/gamejam
-C:/Users/ranra/Documents/Gamejam/gamejam
+63588
+Successfully changed project path to: C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
+C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ranra/Documents/Gamejam/gamejam/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
     VRAM:     6052 MB
-    Driver:   26.21.14.4587
+    Driver:   27.21.14.6677
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
@@ -38,65 +38,96 @@ Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Mo
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002618 seconds.
+Registered in 0.003203 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.31 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe
 Mono: successfully reloaded assembly
-- Completed reload, in  3.507 seconds
+- Completed reload, in  1.320 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.140486 seconds.
+Registered in 0.005161 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000024A6E875E10 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A73E5D010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A6E3AB220 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A6E250A90 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A73A47820 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A73EE3020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A73F10A30 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A6E3AB220 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A728C3A30 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A73E8A630 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A728D5640 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A72C8D010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A6DFBC220 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.39 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.327 seconds
+- Completed reload, in  1.272 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.7 MB.
-System memory in use after: 95.8 MB.
+System memory in use after: 95.7 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2520.
-Total: 2.472300 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.089500 ms MarkObjects: 2.076700 ms  DeleteObjects: 0.098100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Teshi/New Palette.prefab
-  artifactKey: Guid(ffc336be3ba961042b1edc38035662f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/New Palette.prefab using Guid(ffc336be3ba961042b1edc38035662f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dee2e823206e34374124e9e24ce0a1') in 0.058588 seconds
-  Import took 0.062504 seconds .
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 2.733800 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.263400 ms  DeleteObjects: 0.177900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000313 seconds.
+  path: Assets/honda/honda.unity
+  artifactKey: Guid(23df0828577458f40ba54cf54e42333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/honda/honda.unity using Guid(23df0828577458f40ba54cf54e42333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d9c945551edb2d7b68a903d57dce65') in 0.020529 seconds
+  Import took 0.023840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
   path: Assets/honda/Typhoon.png
   artifactKey: Guid(71447878051cc5f448905c01b24739ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/honda/Typhoon.png using Guid(71447878051cc5f448905c01b24739ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35cb9eaba1c90c0240d965286d7ba69') in 0.109541 seconds
-  Import took 0.114679 seconds .
+Start importing Assets/honda/Typhoon.png using Guid(71447878051cc5f448905c01b24739ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79520ff204a8042ef1360709b27663f') in 0.165749 seconds
+  Import took 0.169968 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
+  Time since last request: 0.000280 seconds.
   path: Assets/kaede/Tera.prefab
   artifactKey: Guid(06a302c02bde1b94b9ab3adaa329f349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/Tera.prefab using Guid(06a302c02bde1b94b9ab3adaa329f349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315b3337eca217067703ef9a77a35424') in 0.012543 seconds
-  Import took 0.017701 seconds .
+Start importing Assets/kaede/Tera.prefab using Guid(06a302c02bde1b94b9ab3adaa329f349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1273229f2d6899e4d38cd06b0408d4a1') in 0.024260 seconds
+  Import took 0.029732 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Teshi/airplane.png
-  artifactKey: Guid(53fbde72666278f4da2324bbe37145f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/airplane.png using Guid(53fbde72666278f4da2324bbe37145f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fc95f06a2070341deb2273367bc5d8') in 0.041199 seconds
-  Import took 0.045887 seconds .
+  Time since last request: 5.208135 seconds.
+  path: Assets/kaede/kaede.unity
+  artifactKey: Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/kaede.unity using Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e092cdba3788c2297dfffa1539845b26') in 0.008018 seconds
+  Import took 0.011745 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
