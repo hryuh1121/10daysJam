@@ -339,6 +339,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid
       objectReference: {fileID: 0}
+    - target: {fileID: 3880595580595341744, guid: 6e8701b506cb97948ad9d059ecef86e5,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e8701b506cb97948ad9d059ecef86e5, type: 3}
 --- !u!1001 &1806643344
@@ -376,17 +381,17 @@ PrefabInstance:
     - target: {fileID: 1154089850922683727, guid: d42364ed354f50a49bed52741f82eb83,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1154089850922683727, guid: d42364ed354f50a49bed52741f82eb83,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1154089850922683727, guid: d42364ed354f50a49bed52741f82eb83,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1154089850922683727, guid: d42364ed354f50a49bed52741f82eb83,
         type: 3}

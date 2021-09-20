@@ -15,11 +15,11 @@ C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52898
+61919
 Successfully changed project path to: C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
 C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1115 +35,1587 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003227 seconds.
+Registered in 0.003379 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
+- Completed reload, in  1.500 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005415 seconds.
+Registered in 0.005237 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000207FC05D490 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F7EAB11870 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FBFF55B0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F7EF115020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F7E19060 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001F7EF128630 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCD29230 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F7EF0F5120 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FBFF55B0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F7EF0F5120 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD923010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F7EABA9020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD950A20 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F7EA54A190 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCB28A30 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F7EF128630 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC486010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001F7EF445020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F81FA2B0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F7EF128630 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC2E2010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F7EF456C30 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCC85010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001F7EA78C010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F83E0C20 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F7EA5611A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
+- Completed reload, in  1.344 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.7 MB.
+System memory in use before: 95.8 MB.
+System memory in use after: 95.8 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
-Total: 2.954100 ms (FindLiveObjects: 0.406000 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.245600 ms  DeleteObjects: 0.219400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Teshi/MapTex
-  artifactKey: Guid(5e52369b460cf59438509fe8fa8d1714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex using Guid(5e52369b460cf59438509fe8fa8d1714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe83c8e025444c315ffacfeab8c98ed') in 0.011343 seconds
-  Import took 0.015491 seconds .
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 2.499700 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.041900 ms  DeleteObjects: 0.166500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_3.asset
-  artifactKey: Guid(e3537477cf4473f46a2a812528892aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_3.asset using Guid(e3537477cf4473f46a2a812528892aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b211ec177db65a607cc60d5f1fb902') in 0.104927 seconds
-  Import took 0.108640 seconds .
+  path: Assets/kaede/kaede.unity
+  artifactKey: Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/kaede.unity using Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb27bdc20efc570a4d8dca82a417d16f') in 0.017626 seconds
+  Import took 0.021816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_0.asset
-  artifactKey: Guid(a129e6879753ca04ea4dcbd5b2ddb2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_0.asset using Guid(a129e6879753ca04ea4dcbd5b2ddb2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542f3d91dbd77b9f865af763bb624378') in 0.016530 seconds
-  Import took 0.020639 seconds .
+  Time since last request: 84.557586 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68bdd9cb377529a3ff12c4a6b11e373') in 0.006461 seconds
+  Import took 0.011959 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_8.asset
-  artifactKey: Guid(25e724bde0e7e26498c857f09fc4b6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_8.asset using Guid(25e724bde0e7e26498c857f09fc4b6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b68e4eb7cd6c140b21a81508d06280') in 0.016215 seconds
-  Import took 0.020174 seconds .
+  Time since last request: 271.816083 seconds.
+  path: Assets/kaede/kaede.unity
+  artifactKey: Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/kaede.unity using Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca05456107764b335223f6687d0af245') in 0.005201 seconds
+  Import took 0.009728 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004795 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F7EA40A350 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7EFE0D010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F04DD120 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7EFBB6B70 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7EEA7E9E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F332F010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F3119210 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F068C420 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F36F9010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F2EFB040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F2A6FEB0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F319F720 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F2B8E030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2521.
+Total: 2.746700 ms (FindLiveObjects: 0.203000 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.314400 ms  DeleteObjects: 0.154900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004865 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F7EA40A350 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F23E3020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F36491F0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7EFBB6B70 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F23E3020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F332F010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F1D7AE20 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7EE81FE90 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F002B010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F04DD120 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F2A6FEB0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7EF238010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F2ADE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.205 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2524.
+Total: 2.646500 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.118700 ms MarkObjects: 2.136700 ms  DeleteObjects: 0.146500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005102 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F7EE8A0020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F2557010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F3185020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F36451E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F2557010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F332F010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7EF445020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7EE81FE90 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F002B010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F04DD120 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F2A6FEB0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F0347500 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F7F209C1E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.202 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2527.
+Total: 2.848800 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.075800 ms MarkObjects: 2.469500 ms  DeleteObjects: 0.126600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_15.asset
-  artifactKey: Guid(3c0f0114b7c50c641993b8d3cdec53f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_15.asset using Guid(3c0f0114b7c50c641993b8d3cdec53f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad1847dc689775ddb3d52df72ff5667') in 0.016885 seconds
-  Import took 0.021041 seconds .
+  Time since last request: 1671.969380 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9d81c79e1dd4c1473b7d850e9bd42a') in 0.017156 seconds
+  Import took 0.022440 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Teshi/New Palette.prefab
-  artifactKey: Guid(ffc336be3ba961042b1edc38035662f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/New Palette.prefab using Guid(ffc336be3ba961042b1edc38035662f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89eb8deae41d68ac0e226959f367c55a') in 0.017107 seconds
-  Import took 0.021257 seconds .
+  Time since last request: 116.619812 seconds.
+  path: Assets/kaede/kaede.unity
+  artifactKey: Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/kaede.unity using Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e8caa2ec006a56fb5e32a9d60a1df9') in 0.005926 seconds
+  Import took 0.009766 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_4.asset
-  artifactKey: Guid(330067b9351d4e84c832d5764aca0f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_4.asset using Guid(330067b9351d4e84c832d5764aca0f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89e4f1fa410ccfe6e174181ada75a98') in 0.021134 seconds
-  Import took 0.025053 seconds .
+  Time since last request: 101.970636 seconds.
+  path: Assets/kaede/tile_palette/Home2
+  artifactKey: Guid(48cf48d5a46f9ea4f8677361b5f12c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2 using Guid(48cf48d5a46f9ea4f8677361b5f12c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9224a43956b78955453b14d3e82e7f6') in 0.011659 seconds
+  Import took 0.016542 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_10.asset
-  artifactKey: Guid(a2eb73ef664f1eb43bb16c72d7e3f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_10.asset using Guid(a2eb73ef664f1eb43bb16c72d7e3f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14469a5a402f7c959ea278cb2aceafa') in 0.025361 seconds
-  Import took 0.030653 seconds .
+  Time since last request: 0.065605 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_0.asset
+  artifactKey: Guid(7e4db13e5e78aad4f8c98cd2688524db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_0.asset using Guid(7e4db13e5e78aad4f8c98cd2688524db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c360175beda178c44c2a736e8c41baae') in 0.138089 seconds
+  Import took 0.142623 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_9.asset
-  artifactKey: Guid(a062187496fc20e4594915853d4ec226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_9.asset using Guid(a062187496fc20e4594915853d4ec226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab0817cba2ce8be3eb872fd6113fbdf') in 0.014532 seconds
-  Import took 0.019804 seconds .
+  Time since last request: 0.000215 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_25.asset
+  artifactKey: Guid(1653b437adbf825499c85ce54ef8dff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_25.asset using Guid(1653b437adbf825499c85ce54ef8dff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdc0a60a44089cc9a43af1e032da3b6') in 0.016301 seconds
+  Import took 0.020852 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_2.asset
-  artifactKey: Guid(5e917049b00f99c49b4deb034fc16a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_2.asset using Guid(5e917049b00f99c49b4deb034fc16a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f805f3016a04dae07d73306baad36') in 0.018742 seconds
-  Import took 0.022935 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_15.asset
+  artifactKey: Guid(978dc0b130673204080c0fadd5fd185e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_15.asset using Guid(978dc0b130673204080c0fadd5fd185e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd799840f6933352a56044e0204d419') in 0.022681 seconds
+  Import took 0.027343 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000623 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_14.asset
-  artifactKey: Guid(d0e39e8f670b0a042918f24bfebfe40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_14.asset using Guid(d0e39e8f670b0a042918f24bfebfe40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e924c60bffebf05d65f84b72573578') in 0.016543 seconds
-  Import took 0.021220 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_23.asset
+  artifactKey: Guid(cfa8c529a11645f45a66f65e11a932cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_23.asset using Guid(cfa8c529a11645f45a66f65e11a932cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1877e8c4c39c1c84c2e9a7fbf60271') in 0.015900 seconds
+  Import took 0.020835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_5.asset
-  artifactKey: Guid(3b3cb01c4af9a224f9b2a7fd1d52838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_5.asset using Guid(3b3cb01c4af9a224f9b2a7fd1d52838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887b5f2c247fa8a4a9d36d4fb5d9837d') in 0.017695 seconds
-  Import took 0.022002 seconds .
+  Time since last request: 0.000237 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_29.asset
+  artifactKey: Guid(d0e6b48adbd8fe24fb9343be26c99765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_29.asset using Guid(d0e6b48adbd8fe24fb9343be26c99765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c6c97e7b921b7cc9ef6cb88d986612') in 0.014818 seconds
+  Import took 0.019492 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_11.asset
-  artifactKey: Guid(feafebe0941a2a74389efa7b7d2439d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_11.asset using Guid(feafebe0941a2a74389efa7b7d2439d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2b7a1e812bef32778bd4c3d7c6a6f7') in 0.015428 seconds
-  Import took 0.020137 seconds .
+  Time since last request: 0.000283 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_31.asset
+  artifactKey: Guid(f54ad3c4ad2d3e64a99bdd3e05f69eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_31.asset using Guid(f54ad3c4ad2d3e64a99bdd3e05f69eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2147e3b367d6011d0145878f9970f154') in 0.018072 seconds
+  Import took 0.022532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_8.asset
+  artifactKey: Guid(d9b150c070be47f4890f3ab4968fbff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_8.asset using Guid(d9b150c070be47f4890f3ab4968fbff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f367b08d268abd317a0f5f52340f27') in 0.013282 seconds
+  Import took 0.016864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_9.asset
+  artifactKey: Guid(c3451860a23c8f740abf3cfab53da258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_9.asset using Guid(c3451860a23c8f740abf3cfab53da258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968e2491e1b58729739105abccd4c9d1') in 0.014995 seconds
+  Import took 0.018668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_10.asset
+  artifactKey: Guid(4f6252b8d307b064b9d045611036e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_10.asset using Guid(4f6252b8d307b064b9d045611036e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222a5b73dbda924214381c69019aec30') in 0.016545 seconds
+  Import took 0.020550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_36.asset
+  artifactKey: Guid(3d84c0669b89f764c88bf57adf4f47de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_36.asset using Guid(3d84c0669b89f764c88bf57adf4f47de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fce072e97044a06de64bc9fd9cf8f8') in 0.015946 seconds
+  Import took 0.019558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_16.asset
+  artifactKey: Guid(4e250a590dcc9494b9cdce018414848b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_16.asset using Guid(4e250a590dcc9494b9cdce018414848b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf2612928b90e9775aec5c7b921bde9') in 0.018130 seconds
+  Import took 0.022100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_33.asset
+  artifactKey: Guid(91a080f9aad76564c8ca334b269a2f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_33.asset using Guid(91a080f9aad76564c8ca334b269a2f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefbffde961d0a97d1b174063d2d06dd') in 0.019456 seconds
+  Import took 0.023575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_38.asset
+  artifactKey: Guid(f4f046dde70a6074eb2420d522b794e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_38.asset using Guid(f4f046dde70a6074eb2420d522b794e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d44e567e60f9522eb640ce29b8f5ea') in 0.014624 seconds
+  Import took 0.018588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_19.asset
+  artifactKey: Guid(1b7af7efddebca849af00093aed084a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_19.asset using Guid(1b7af7efddebca849af00093aed084a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af08623fb85785021c9421b2daf76e8') in 0.012735 seconds
+  Import took 0.016528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_13.asset
+  artifactKey: Guid(be0255118fc1fd94893eed948a0b9c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_13.asset using Guid(be0255118fc1fd94893eed948a0b9c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f199f862c3910943952ebd206bb8e7') in 0.012428 seconds
+  Import took 0.016019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_3.asset
+  artifactKey: Guid(5cb3b562d6b6adb4cb62030abdc16aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_3.asset using Guid(5cb3b562d6b6adb4cb62030abdc16aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bf0d19c006b77d63e4c965230269e5') in 0.013174 seconds
+  Import took 0.017375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_37.asset
+  artifactKey: Guid(0f90cc54be332214dbbc66b434f906ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_37.asset using Guid(0f90cc54be332214dbbc66b434f906ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061cf77fd2b5a7900b0408016cde8dd0') in 0.013019 seconds
+  Import took 0.016980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_41.asset
+  artifactKey: Guid(9676832bbb5a0e94fa72d781e86a923a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_41.asset using Guid(9676832bbb5a0e94fa72d781e86a923a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ad25bbe094ceb9961d7c3834e34e4c') in 0.013620 seconds
+  Import took 0.018211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_34.asset
+  artifactKey: Guid(96e9b7c162a38d842bda94b77ce8fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_34.asset using Guid(96e9b7c162a38d842bda94b77ce8fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd955f0fcc376e3abfc93bc5045320838') in 0.013084 seconds
+  Import took 0.016678 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000303 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_12.asset
-  artifactKey: Guid(40a4ea61710551a48857dfd63797769a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_12.asset using Guid(40a4ea61710551a48857dfd63797769a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc464c1892faa87153f60345e4efd830') in 0.020787 seconds
-  Import took 0.025015 seconds .
+  path: Assets/kaede/tile_palette/Home2/house_6.asset
+  artifactKey: Guid(0c9c90f8225e1474194d9f1559f9f9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_6.asset using Guid(0c9c90f8225e1474194d9f1559f9f9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3dce97884a026418eb41478dece18a') in 0.011794 seconds
+  Import took 0.015696 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png
-  artifactKey: Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png using Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2509e2b102e682fddb18581c4e5673fc') in 0.089368 seconds
-  Import took 0.093081 seconds .
+  Time since last request: 0.000212 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_4.asset
+  artifactKey: Guid(d3e81d6e8821cc14b9d405637c036282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_4.asset using Guid(d3e81d6e8821cc14b9d405637c036282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c829e8d9530466c8e1c8433d49657f') in 0.012330 seconds
+  Import took 0.015851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_13.asset
-  artifactKey: Guid(fe682b1ad68ab6249bf23cf04451a456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_13.asset using Guid(fe682b1ad68ab6249bf23cf04451a456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f5b5650b696aedfff74d587962c4ca') in 0.011856 seconds
-  Import took 0.015899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Teshi/airplane.png
-  artifactKey: Guid(53fbde72666278f4da2324bbe37145f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/airplane.png using Guid(53fbde72666278f4da2324bbe37145f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1009b43b212363e078dfcb3d0cb1c7c') in 0.031395 seconds
-  Import took 0.035548 seconds .
+  Time since last request: 0.000193 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_17.asset
+  artifactKey: Guid(e33aefced53b405479cc0fe3ee3d745e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_17.asset using Guid(e33aefced53b405479cc0fe3ee3d745e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a47bb2ab752a2125cb9bbd67da6d4b') in 0.012097 seconds
+  Import took 0.015612 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000233 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_6.asset
-  artifactKey: Guid(795556b128c7006499a9ea9d1036d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_6.asset using Guid(795556b128c7006499a9ea9d1036d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb58d71d4830045d1a5f8a0a04c29bc1') in 0.012295 seconds
-  Import took 0.016176 seconds .
+  path: Assets/kaede/tile_palette/Home2/house_30.asset
+  artifactKey: Guid(4c842436f9444234bba8b23316e18f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_30.asset using Guid(4c842436f9444234bba8b23316e18f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd10c20899cd759f390ba9f1a62f7aa') in 0.011735 seconds
+  Import took 0.015260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_7.asset
+  artifactKey: Guid(c6d8f694b30ddf34d8e1dc6382eb5ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_7.asset using Guid(c6d8f694b30ddf34d8e1dc6382eb5ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293ae9cd03d4ff28e5aa26c39c0c856e') in 0.012526 seconds
+  Import took 0.016560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_32.asset
+  artifactKey: Guid(8efe1a6013a6f584ab55570c949644f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_32.asset using Guid(8efe1a6013a6f584ab55570c949644f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2041c1dd5c2ecb753a03016ecb1b2465') in 0.012632 seconds
+  Import took 0.016076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_21.asset
+  artifactKey: Guid(c9b9ae07f97675043883c4479f6b9ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_21.asset using Guid(c9b9ae07f97675043883c4479f6b9ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26aeb702fecf40f0206ab74ac5242a7c') in 0.013221 seconds
+  Import took 0.016994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_22.asset
+  artifactKey: Guid(099178632af48d345acf4b255b7b546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_22.asset using Guid(099178632af48d345acf4b255b7b546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58718489a926d71253ee867b1ed3d3b8') in 0.012503 seconds
+  Import took 0.016293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_11.asset
+  artifactKey: Guid(463238d14f61ce14da2fe02ab5edd760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_11.asset using Guid(463238d14f61ce14da2fe02ab5edd760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec8576ed6df725650799401acd2a595') in 0.011444 seconds
+  Import took 0.015018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_40.asset
+  artifactKey: Guid(29961a2d293585842aff0bd3d9430525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_40.asset using Guid(29961a2d293585842aff0bd3d9430525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6590340bcb8a9df1bd1a750397494339') in 0.011671 seconds
+  Import took 0.015075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_24.asset
+  artifactKey: Guid(27bd4ec65c1e20843b928da90a6e6ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_24.asset using Guid(27bd4ec65c1e20843b928da90a6e6ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de41dc98dc4a646435cb680548544706') in 0.011472 seconds
+  Import took 0.015108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_1.asset
+  artifactKey: Guid(a0bc048b777cbb740a1a797f7fb31c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_1.asset using Guid(a0bc048b777cbb740a1a797f7fb31c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213a66a1b65dfbadebf7be8a77bc385a') in 0.011487 seconds
+  Import took 0.014916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_18.asset
+  artifactKey: Guid(46ac6cf627b57fc4c91db511f3c65978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_18.asset using Guid(46ac6cf627b57fc4c91db511f3c65978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdd054d6bc0b58ed51d3ba050778bed') in 0.012663 seconds
+  Import took 0.016535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_5.asset
+  artifactKey: Guid(5382cc2d27ace4a419313977d0f0f977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_5.asset using Guid(5382cc2d27ace4a419313977d0f0f977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c5e7bdd27a3181d5304e2fa9fdc040') in 0.011292 seconds
+  Import took 0.014872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_20.asset
+  artifactKey: Guid(576bcf40540d6c449869874f9105d655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_20.asset using Guid(576bcf40540d6c449869874f9105d655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6691dfb0781ff083d9cde9c42d134a8') in 0.012471 seconds
+  Import took 0.016676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_26.asset
+  artifactKey: Guid(677e6599363769e4bb9a47d7a7658854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_26.asset using Guid(677e6599363769e4bb9a47d7a7658854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bfe8c22ebc9ff20f5a46f55ce56205') in 0.012133 seconds
+  Import took 0.015943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_27.asset
+  artifactKey: Guid(a608629586b933f4296f7d1d6ea133a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_27.asset using Guid(a608629586b933f4296f7d1d6ea133a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9648caa6ee5f20d85ac7b1f84b64ca06') in 0.012082 seconds
+  Import took 0.015630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_12.asset
+  artifactKey: Guid(73ce3fdebf0d4ae48a965e0a0dd86d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_12.asset using Guid(73ce3fdebf0d4ae48a965e0a0dd86d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31645456e91a091f250c3243c3e0bda4') in 0.012414 seconds
+  Import took 0.016615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_28.asset
+  artifactKey: Guid(af9fd8086c33c9d46a2334d7d28b8294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_28.asset using Guid(af9fd8086c33c9d46a2334d7d28b8294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a1677fb9e2c233d48c6afef323cfea') in 0.012240 seconds
+  Import took 0.016586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_35.asset
+  artifactKey: Guid(ca70d1f9c0d95284e947be6bda2e623b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_35.asset using Guid(ca70d1f9c0d95284e947be6bda2e623b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552636a5d6eddbe38b19a9254e5339c9') in 0.011888 seconds
+  Import took 0.015561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_39.asset
+  artifactKey: Guid(779ef635353b2734ba8ec0f2fd35d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_39.asset using Guid(779ef635353b2734ba8ec0f2fd35d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d4e19a69acf2766c447f65e9e65faa') in 0.012911 seconds
+  Import took 0.016782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_14.asset
+  artifactKey: Guid(2e26179b239dbd048ad8634f6b1e3ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_14.asset using Guid(2e26179b239dbd048ad8634f6b1e3ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8e686f110c8ac75f9162f1769b8169') in 0.012506 seconds
+  Import took 0.016237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/kaede/tile_palette/Home2/house_2.asset
+  artifactKey: Guid(b3c365d2cf4cb25418aa582403cdbc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home2/house_2.asset using Guid(b3c365d2cf4cb25418aa582403cdbc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce6d105c15cd8226c1fb885a4ee0a87') in 0.012120 seconds
+  Import took 0.015676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.703643 seconds.
+  path: Assets/kaede/tile_palette/Home/house_12.asset
+  artifactKey: Guid(09795a1ad1eaeed4684c162c287ddd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_12.asset using Guid(09795a1ad1eaeed4684c162c287ddd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0416d48d40f931998f7168abb5614619') in 0.009119 seconds
+  Import took 0.014219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/kaede/tile_palette/Home/house_16.asset
+  artifactKey: Guid(5af80017d7624bc4dbb33c586a691b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_16.asset using Guid(5af80017d7624bc4dbb33c586a691b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ce2fb4293d28197e96e1df560eca9b') in 0.009426 seconds
+  Import took 0.014642 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000281 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_1.asset
-  artifactKey: Guid(fc2aa74c56cc6b44192a26129fcca80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_1.asset using Guid(fc2aa74c56cc6b44192a26129fcca80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347cfba378c05b6aed645624db47a871') in 0.013348 seconds
-  Import took 0.018135 seconds .
+  path: Assets/kaede/tile_palette/Home/house_35.asset
+  artifactKey: Guid(ce92f405b2025ca4b91e67c2e1a1a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_35.asset using Guid(ce92f405b2025ca4b91e67c2e1a1a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3b043246ee277960e98a88b0725369') in 0.011759 seconds
+  Import took 0.016879 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_7.asset
-  artifactKey: Guid(118c9f07fe43c704d83c642beebc405b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_7.asset using Guid(118c9f07fe43c704d83c642beebc405b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce309b8196992e63130787a717a70c3') in 0.013602 seconds
-  Import took 0.017958 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/kaede/tile_palette/Home/house_17.asset
+  artifactKey: Guid(535364234acb6a24d88818604a167037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_17.asset using Guid(535364234acb6a24d88818604a167037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2498323ab6651c39f25ff96e6f0b41') in 0.010176 seconds
+  Import took 0.033228 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 154.522929 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png
-  artifactKey: Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png using Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25111664b4cab4fcf3df7fc4707c1f4e') in 0.072641 seconds
-  Import took 0.077914 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005372 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207FDDFBA30 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206414229E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCCDB040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD88F010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F81EF8A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F7DB8020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDC5B220 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC83B020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640E13030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F7DF5440 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCAED010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD88F010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.8 MB.
-System memory in use after: 98.8 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2561.
-Total: 2.655900 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.071800 ms MarkObjects: 2.236800 ms  DeleteObjects: 0.143000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004691 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207F7A8B6A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206414229E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCCDB040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC0055C0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206414229E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641668020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDE4B020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641C59010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDC5CA20 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640A4E020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD923010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC0055C0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.181 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.9 MB.
-System memory in use after: 98.8 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2564.
-Total: 2.363700 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.083600 ms MarkObjects: 1.945500 ms  DeleteObjects: 0.149300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004782 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207F7A8B6A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDE43010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F7C3E7A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDD6F010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641CC2030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641668020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F82C1020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD8AE740 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCE9FFA0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDC48010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCC85010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDD6F010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.9 MB.
-System memory in use after: 98.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2567.
-Total: 2.931600 ms (FindLiveObjects: 0.216200 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.445100 ms  DeleteObjects: 0.188300 ms)
+  Time since last request: 0.000253 seconds.
+  path: Assets/kaede/tile_palette/Home/house_30.asset
+  artifactKey: Guid(562b831f1170fa04484393de9f50aff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_30.asset using Guid(562b831f1170fa04484393de9f50aff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ec8e627a9523c299ab091ffd984c66') in 0.015911 seconds
+  Import took 0.021431 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 333.508675 seconds.
-  path: Assets/kaede/tile_palette
-  artifactKey: Guid(2610513bd0859804b9aa801b57c95219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/tile_palette using Guid(2610513bd0859804b9aa801b57c95219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1984d71a0d17ed65c8bfaf8c3e63a4a5') in 0.011181 seconds
-  Import took 0.015538 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/kaede/tile_palette/Home/house_23.asset
+  artifactKey: Guid(2bf3c04a2681e4d42a6b8c5cf32373cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_23.asset using Guid(2bf3c04a2681e4d42a6b8c5cf32373cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a5d61135e92920f29416e5172ba568') in 0.012154 seconds
+  Import took 0.017629 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.867603 seconds.
-  path: Assets/kaede/image
-  artifactKey: Guid(21efe029a7ae20f4a8e6cbe2f931846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/image using Guid(21efe029a7ae20f4a8e6cbe2f931846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91cf84f70bba377e364951d1547982d') in 0.009428 seconds
-  Import took 0.013593 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/kaede/tile_palette/Home/house_34.asset
+  artifactKey: Guid(155a86de70c05b445b7740765a685701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_34.asset using Guid(155a86de70c05b445b7740765a685701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90124e9d974c721da7407457729b67ed') in 0.009622 seconds
+  Import took 0.014146 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.064421 seconds.
-  path: Assets/kaede/image/Effect.png
-  artifactKey: Guid(b7e818c530dc4c2448786bc7a8d9169a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/image/Effect.png using Guid(b7e818c530dc4c2448786bc7a8d9169a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6672be4fbeeae50f5ac7a04337f989') in 0.056836 seconds
-  Import took 0.060831 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/kaede/tile_palette/Home/house_38.asset
+  artifactKey: Guid(a764bcce3cdde104d93cc7d6ca82bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_38.asset using Guid(a764bcce3cdde104d93cc7d6ca82bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4aa8b241ef69b126268d595ccd1ebc') in 0.011252 seconds
+  Import took 0.015327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/kaede/tile_palette/Home/house_32.asset
+  artifactKey: Guid(4fff2236783bd1b4cac8eaee264cdf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_32.asset using Guid(4fff2236783bd1b4cac8eaee264cdf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61ff7c991a5baa86757548c461eb099') in 0.015754 seconds
+  Import took 0.019350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/kaede/tile_palette/Home/house_22.asset
+  artifactKey: Guid(3f3af7af6749c474db47335788c16b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_22.asset using Guid(3f3af7af6749c474db47335788c16b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95dc744150aa94b98e01a914ed02600') in 0.009191 seconds
+  Import took 0.013364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/kaede/tile_palette/Home/house_14.asset
+  artifactKey: Guid(1ede1b4236b593246851010b1f8ba27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_14.asset using Guid(1ede1b4236b593246851010b1f8ba27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2d640f95f155ead82da4a5c67b4810') in 0.010704 seconds
+  Import took 0.015435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/kaede/tile_palette/Home/house_29.asset
+  artifactKey: Guid(ff3ed1bac6d946b46b7783512af3cb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_29.asset using Guid(ff3ed1bac6d946b46b7783512af3cb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0126e211951257882edd2b03f91a57') in 0.007061 seconds
+  Import took 0.010822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/kaede/tile_palette/Home/house_21.asset
+  artifactKey: Guid(9a668840bc99c5e408d78231d25ba6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_21.asset using Guid(9a668840bc99c5e408d78231d25ba6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ac101cc6938af55fc7ed92cb4cf143') in 0.007659 seconds
+  Import took 0.011832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/kaede/tile_palette/Home/house_36.asset
+  artifactKey: Guid(86eb12be8be309f419a4228197ccebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_36.asset using Guid(86eb12be8be309f419a4228197ccebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaa236e1759a9413a11236996e318f2') in 0.008346 seconds
+  Import took 0.013033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/kaede/tile_palette/Home/house_31.asset
+  artifactKey: Guid(aa9116b9239742a4c8eeb92e7e0fbf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_31.asset using Guid(aa9116b9239742a4c8eeb92e7e0fbf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63395d187aeecba0986d548790cdd0ab') in 0.009449 seconds
+  Import took 0.013111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/kaede/tile_palette/Home/house_33.asset
+  artifactKey: Guid(3ab673db33af14e41b806c62e68bbf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_33.asset using Guid(3ab673db33af14e41b806c62e68bbf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc8b2a9ae5d8b4a252d2e296a2b09e0') in 0.017533 seconds
+  Import took 0.021958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/kaede/tile_palette/Home/house_26.asset
+  artifactKey: Guid(3e92c661ac2fb3946bb418d3c9c0b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_26.asset using Guid(3e92c661ac2fb3946bb418d3c9c0b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d66b806ed6132033b08a250bc5b459') in 0.009520 seconds
+  Import took 0.013956 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000321 seconds.
-  path: Assets/kaede/image/Effect_more_red.png
-  artifactKey: Guid(17b8c4e8472bc12459c76b1ddcddec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/image/Effect_more_red.png using Guid(17b8c4e8472bc12459c76b1ddcddec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e107e0545b6be5f83bf48f4fed41e6a') in 0.033016 seconds
-  Import took 0.036665 seconds .
+  path: Assets/kaede/tile_palette/Home/house_20.asset
+  artifactKey: Guid(299ff3b0359268149a0a8575d38bfb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_20.asset using Guid(299ff3b0359268149a0a8575d38bfb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b200c5830727cfabd13362f1cdf321d') in 0.012068 seconds
+  Import took 0.016514 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.995694 seconds.
-  path: Assets/Teshi/Font/07にくまるフォント.otf
-  artifactKey: Guid(e9a842a617b712241828ad0372237dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/07にくまるフォント.otf using Guid(e9a842a617b712241828ad0372237dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cba56b0e058634ab78ebfe6df6045c') in 0.083233 seconds
-  Import took 0.086840 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/kaede/tile_palette/Home/house_18.asset
+  artifactKey: Guid(7ee30607b1dd90844b25422d3eee4312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_18.asset using Guid(7ee30607b1dd90844b25422d3eee4312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47a68e786b5b25a851ec7a35fbc8885') in 0.014704 seconds
+  Import took 0.018578 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.656073 seconds.
-  path: Assets/Teshi/Font/JiyunoTsubasa.ttf
-  artifactKey: Guid(fab74d7a11d5a7a49aad53d5a0804309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/JiyunoTsubasa.ttf using Guid(fab74d7a11d5a7a49aad53d5a0804309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917ff48d8000d1fd7591d0c670aa9790') in 0.032115 seconds
-  Import took 0.036706 seconds .
+  Time since last request: 0.000234 seconds.
+  path: Assets/kaede/tile_palette/Home/house_25.asset
+  artifactKey: Guid(a5fb221d278dffe4095d128633218378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_25.asset using Guid(a5fb221d278dffe4095d128633218378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4898d6693bebbe677eed0917248ca541') in 0.014109 seconds
+  Import took 0.018801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Teshi/Font/rounded-x-mplus-1c-black.ttf
-  artifactKey: Guid(709efb4de5ea1e6499bd4aa0b2b388cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/rounded-x-mplus-1c-black.ttf using Guid(709efb4de5ea1e6499bd4aa0b2b388cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c359a551c7d7dda2eb0f99bcb40dea0f') in 0.025710 seconds
-  Import took 0.029439 seconds .
+  Time since last request: 0.000211 seconds.
+  path: Assets/kaede/tile_palette/Home/house_27.asset
+  artifactKey: Guid(6441095a3eb9af345a05b4a0412f3207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_27.asset using Guid(6441095a3eb9af345a05b4a0412f3207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7de611f8709f84284bf574f46ab4f24') in 0.014307 seconds
+  Import took 0.018512 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Teshi/Font/k8x12.ttf
-  artifactKey: Guid(7c6732bc6de576e44bd118f784c015e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/k8x12.ttf using Guid(7c6732bc6de576e44bd118f784c015e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ea46765375a5ef4b1057daa5b123a1') in 0.040046 seconds
-  Import took 0.043643 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/kaede/tile_palette/Home/house_13.asset
+  artifactKey: Guid(e3abb7b50b1fe20458145c40a52d99ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_13.asset using Guid(e3abb7b50b1fe20458145c40a52d99ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd412579eb9e764b3f7fdae0c8bdf88') in 0.007803 seconds
+  Import took 0.012065 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Teshi/Font/misaki_gothic.ttf
-  artifactKey: Guid(46ad4f865966cd54db4ec649ee96175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/Font/misaki_gothic.ttf using Guid(46ad4f865966cd54db4ec649ee96175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03355780ad771d6cd03923992c7be904') in 0.033778 seconds
-  Import took 0.037558 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/kaede/tile_palette/Home/house_19.asset
+  artifactKey: Guid(ffa1c212b566dc043a992eb9064b6230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_19.asset using Guid(ffa1c212b566dc043a992eb9064b6230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfa914a0e15fc9ea68214dd4495e301') in 0.006870 seconds
+  Import took 0.010474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/kaede/tile_palette/Home/house_15.asset
+  artifactKey: Guid(580ee4fb293662248b3e03851544d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_15.asset using Guid(580ee4fb293662248b3e03851544d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da921bc97d36aa863e110faa340af725') in 0.007517 seconds
+  Import took 0.011408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/kaede/tile_palette/Home/house_24.asset
+  artifactKey: Guid(ff42502e86f850c42b5a734d34bcfeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_24.asset using Guid(ff42502e86f850c42b5a734d34bcfeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77706fc94dd3e2ec3ee9885071b9cee5') in 0.007328 seconds
+  Import took 0.010734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/kaede/tile_palette/Home/house_37.asset
+  artifactKey: Guid(5b1282c9762e3664d87b66dfdccf747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_37.asset using Guid(5b1282c9762e3664d87b66dfdccf747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd2b1ff582337cdb99f68ce596ef7d0') in 0.007652 seconds
+  Import took 0.011727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/kaede/tile_palette/Home/house_28.asset
+  artifactKey: Guid(a91bc10e6a0a2974ea5a4490baeefefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_28.asset using Guid(a91bc10e6a0a2974ea5a4490baeefefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcace3814250a3477811a2bfc5ed545') in 0.007258 seconds
+  Import took 0.010740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.562923 seconds.
+  path: Assets/kaede/tile_palette/Home/Home.prefab
+  artifactKey: Guid(581e1951df18af74f8298b954a566e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/Home.prefab using Guid(581e1951df18af74f8298b954a566e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066ec2fe9851aec7604f037be088a636') in 0.052914 seconds
+  Import took 0.057173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/kaede/tile_palette/Home/house_1.asset
+  artifactKey: Guid(b04b1fdfb13c1ca41a839a1c990b08f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_1.asset using Guid(b04b1fdfb13c1ca41a839a1c990b08f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2a82e587a83e7ebbcf26a49b08eea3') in 0.007081 seconds
+  Import took 0.011405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/kaede/tile_palette/Home/house_4.asset
+  artifactKey: Guid(aacae36378996974ca38a92959a8917f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_4.asset using Guid(aacae36378996974ca38a92959a8917f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4402a3a2073080e88213d014346878e6') in 0.010854 seconds
+  Import took 0.014709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/kaede/tile_palette/Home/house_8.asset
+  artifactKey: Guid(0c573ca05d85460478d0060a713c7830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_8.asset using Guid(0c573ca05d85460478d0060a713c7830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b624acc7f50f42454b1338df51e7f8') in 0.009812 seconds
+  Import took 0.014645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/kaede/tile_palette/Home/house_10.asset
+  artifactKey: Guid(662a4ace008dddc4f9484c6c5cb6f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_10.asset using Guid(662a4ace008dddc4f9484c6c5cb6f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c3d78a900edadcb89d08b12ffcce65') in 0.012100 seconds
+  Import took 0.016012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/kaede/tile_palette/Home/house_7.asset
+  artifactKey: Guid(c29615249c7424e4c913627f37a414db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_7.asset using Guid(c29615249c7424e4c913627f37a414db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36eb39cd1169b16e82075eed6b78249') in 0.009032 seconds
+  Import took 0.013836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/kaede/tile_palette/Home/house_6.asset
+  artifactKey: Guid(6134f76f10ca7ef479e92da28833d308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_6.asset using Guid(6134f76f10ca7ef479e92da28833d308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a6d368e71dec099a8dac093991b772') in 0.008439 seconds
+  Import took 0.012711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/kaede/tile_palette/Home/house_5.asset
+  artifactKey: Guid(780dc5db2cbca4043bc3e8835d5c47a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_5.asset using Guid(780dc5db2cbca4043bc3e8835d5c47a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e7bfb1dc00ac982ed732b34613ec17') in 0.011935 seconds
+  Import took 0.015989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/kaede/tile_palette/Home/house_3.asset
+  artifactKey: Guid(1b75c8b5565d58944ba53d740f341a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_3.asset using Guid(1b75c8b5565d58944ba53d740f341a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74403b258f9f227eea940e65a39fe9e5') in 0.009535 seconds
+  Import took 0.014362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/kaede/tile_palette/Home/house_11.asset
+  artifactKey: Guid(32eaf953574366d41a361a3e361431ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_11.asset using Guid(32eaf953574366d41a361a3e361431ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff755c4fcd1b9bd73ee98e04e9252c0') in 0.012893 seconds
+  Import took 0.016916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/kaede/tile_palette/Home/house_0.asset
+  artifactKey: Guid(0580ef52b02d5cf45a2938a28e01ffb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_0.asset using Guid(0580ef52b02d5cf45a2938a28e01ffb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc308b3d8221c488ee59f33695dcfd7') in 0.013801 seconds
+  Import took 0.018353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/kaede/tile_palette/Home/house_2.asset
+  artifactKey: Guid(260afccbe85accb469bcc03ed4e1399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_2.asset using Guid(260afccbe85accb469bcc03ed4e1399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399b50ffa7fd3d0d51af791aabd23d0d') in 0.009463 seconds
+  Import took 0.013209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/kaede/tile_palette/Home/house_9.asset
+  artifactKey: Guid(2e2e485c76dfbca4d948acedf74ec9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Home/house_9.asset using Guid(2e2e485c76dfbca4d948acedf74ec9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9bbc3af21193b8a761b709698ebc2c') in 0.011688 seconds
+  Import took 0.016378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.984739 seconds.
+  path: Assets/Sunnyland/artwork
+  artifactKey: Guid(2f17d1e6a207e4d8eb72bd03b1b645ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork using Guid(2f17d1e6a207e4d8eb72bd03b1b645ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a74d76d4688b1d4a5c3a255f24721c') in 0.008625 seconds
+  Import took 0.012575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970320 seconds.
+  path: Assets/Sunnyland/artwork/Environment
+  artifactKey: Guid(7174750bdca91466fa784bba50da49b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment using Guid(7174750bdca91466fa784bba50da49b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0206cb2bfe385659083c10b1a15be05') in 0.008166 seconds
+  Import took 0.012141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058292 seconds.
+  path: Assets/Sunnyland/artwork/Environment/back.png
+  artifactKey: Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/back.png using Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8b442126f57c961a0453b652cf863c') in 0.080957 seconds
+  Import took 0.084839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset-sliced.png
+  artifactKey: Guid(261212b977f594d5dbc48631a5c1295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset-sliced.png using Guid(261212b977f594d5dbc48631a5c1295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6574994d9cb9b11c50dff2c70be34ccf') in 0.294633 seconds
+  Import took 0.299228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Sunnyland/artwork/Environment/middle.png
+  artifactKey: Guid(de41d366c687a46beb6a9acaa88c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/middle.png using Guid(de41d366c687a46beb6a9acaa88c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bd9318211340215f5e607914c3e710') in 0.023649 seconds
+  Import took 0.027508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset.png
+  artifactKey: Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset.png using Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e60e5edc645a6df5843e12d955ac25') in 0.034705 seconds
+  Import took 0.039492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.605089 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props
+  artifactKey: Guid(15e7312e0607f4e84aeacdc44a70744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props using Guid(15e7312e0607f4e84aeacdc44a70744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef14071724558cefaa6476b5eb4eae9') in 0.008877 seconds
+  Import took 0.013156 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009008 seconds.
+Registered in 0.004780 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000207FDDFBA30 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F7EFBBEB80 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206409DA010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F7F0423030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC79B030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001F7F2EFB040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640094030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F7F209C1E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDD1C020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F7EEA7E9E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F7F332F010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641668020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F7EA1A7080 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640A6A050 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F7EF473760 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FE0AF010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001F7F3873010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206407DFA00 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F7F2F63020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640E73040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F7EE6D9C40 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FE22A030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001F7EA3961D0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640094030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F7F209C1E0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2611.
-Total: 2.686600 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.073700 ms MarkObjects: 2.208800 ms  DeleteObjects: 0.190900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 303.342068 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png
-  artifactKey: Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png using Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31a8c43aff7613aadf73da6dd26d7bc') in 0.107761 seconds
-  Import took 0.111284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 236.312429 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png
-  artifactKey: Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png using Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c558cae19c26c469a926f4ed372a785') in 0.100595 seconds
-  Import took 0.106016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.904190 seconds.
-  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png
-  artifactKey: Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png using Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fc4588416493940eecaea04b31ed40') in 0.114548 seconds
-  Import took 0.119271 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004653 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020641A8F020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC9AD040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FE2660A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640036430 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDD1C020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F79E3010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640A6A050 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FE0AF010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206407DFA00 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641F70020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDB88020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640036430 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.143 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2617.
-Total: 2.591800 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.088700 ms MarkObjects: 2.145300 ms  DeleteObjects: 0.155500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004563 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207F7A8B6A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC4A8010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F7C3E7A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640036430 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640F31010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822198020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC0E6020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640A6A050 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC83B020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206407DFA00 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640E73040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC38A010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640036430 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
+- Completed reload, in  1.264 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
+System memory in use before: 99.1 MB.
+System memory in use after: 99.1 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2620.
-Total: 2.559300 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.095200 ms  DeleteObjects: 0.169600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 552.659434 seconds.
-  path: Assets/kaede
-  artifactKey: Guid(9346d6d5d6020484986eba972b99fa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede using Guid(9346d6d5d6020484986eba972b99fa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe313a853a904a955f7f492891a76178') in 0.013329 seconds
-  Import took 0.017615 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004996 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020641F9C180 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640900030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002082211C0B0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641F52420 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640F31010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC0E6020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F7C3E7A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD8AE740 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640AC2040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640E73040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208226D5010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641F52420 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2623.
-Total: 2.467500 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.046200 ms  DeleteObjects: 0.146400 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2550.
+Total: 3.528400 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.096500 ms MarkObjects: 3.058300 ms  DeleteObjects: 0.125900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.684632 seconds.
-  path: Assets/kaede/prefab
-  artifactKey: Guid(61f049986045e744ba99ae651368c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/prefab using Guid(61f049986045e744ba99ae651368c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48b84ae86eb5ca800b0e5c3749d34a1') in 0.009912 seconds
-  Import took 0.013396 seconds .
+  Time since last request: 94.578468 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-1.png
+  artifactKey: Guid(72de0c64f2c6a498096698322c976a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-1.png using Guid(72de0c64f2c6a498096698322c976a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea53cff864d1c57155977407ea3edfa') in 0.099786 seconds
+  Import took 0.105503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.025410 seconds.
-  path: Assets/kaede/prefab/particle.prefab
-  artifactKey: Guid(c9d577af691c5d944b69df97541e3647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/prefab/particle.prefab using Guid(c9d577af691c5d944b69df97541e3647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2546226bce127b6c06c67baac624c05') in 0.032410 seconds
-  Import took 0.036874 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-4.png
+  artifactKey: Guid(8bc3c2c2a565342aab778fd8e874313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-4.png using Guid(8bc3c2c2a565342aab778fd8e874313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539b2fcb96e7cdc00f042cada0e05b76') in 0.052282 seconds
+  Import took 0.057425 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.178115 seconds.
-  path: Assets/kaede/Scripts
-  artifactKey: Guid(20ebdf68894c828418892453bd8753bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/Scripts using Guid(20ebdf68894c828418892453bd8753bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3983a50203f87ba07e319f9f657910ff') in 0.010121 seconds
-  Import took 0.013871 seconds .
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-1.png
+  artifactKey: Guid(72de0c64f2c6a498096698322c976a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-1.png using Guid(72de0c64f2c6a498096698322c976a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea53cff864d1c57155977407ea3edfa') in 0.011278 seconds
+  Import took 0.016187 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.919697 seconds.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-3.png
+  artifactKey: Guid(077f0469c420a4365bc67943783293df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-3.png using Guid(077f0469c420a4365bc67943783293df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490dd198b9acae65a84a469ce040f5ed') in 0.029210 seconds
+  Import took 0.034260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-2.png
+  artifactKey: Guid(c8a742c1f2ebb43b9afe34a47304c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-2.png using Guid(c8a742c1f2ebb43b9afe34a47304c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d23c074f2cccc93cd125efb4c1058e') in 0.016351 seconds
+  Import took 0.020254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.074300 seconds.
   path: Assets/kaede/Scripts/playChara.cs
   artifactKey: Guid(1667ddef6071c8d4289dae2f5ecaa9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/Scripts/playChara.cs using Guid(1667ddef6071c8d4289dae2f5ecaa9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6769ece91506dc19c164a4b5853e415f') in 0.024182 seconds
-  Import took 0.028079 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006438 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207F7A8B6A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206409DA010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207CF36F4D0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD3A8020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640174010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822198020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC0E6020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC865020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822C24010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206407DFA00 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC702010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822996080 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD3A8020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.493 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2626.
-Total: 2.850100 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.399200 ms  DeleteObjects: 0.135600 ms)
+Start importing Assets/kaede/Scripts/playChara.cs using Guid(1667ddef6071c8d4289dae2f5ecaa9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579203c9d90b940cf37d0adaf58df40d') in 0.009259 seconds
+  Import took 0.013299 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 281.803549 seconds.
+  Time since last request: 0.066767 seconds.
   path: Assets/kaede/Scripts/playChara.cs
   artifactKey: Guid(1667ddef6071c8d4289dae2f5ecaa9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/Scripts/playChara.cs using Guid(1667ddef6071c8d4289dae2f5ecaa9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3159dc65a14710652f1a1a7306f16398') in 0.006388 seconds
-  Import took 0.010889 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004758 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207F7E1D460 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206409DA010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207CF36F4D0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206407D4E60 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640174010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC0E6020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC865020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD8AE740 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206407DFA00 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC702010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822515040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206406B9140 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2629.
-Total: 2.634800 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.097900 ms MarkObjects: 2.118500 ms  DeleteObjects: 0.157200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005301 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207F7E1D460 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206409DA010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207CF36F4D0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDD1C020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640F31010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC0E6020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F81F78B0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD8AE740 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD470050 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC702010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822515040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDD1C020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2632.
-Total: 2.548700 ms (FindLiveObjects: 0.198600 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.133800 ms  DeleteObjects: 0.132800 ms)
+Start importing Assets/kaede/Scripts/playChara.cs using Guid(1667ddef6071c8d4289dae2f5ecaa9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579203c9d90b940cf37d0adaf58df40d') in 0.003379 seconds
+  Import took 0.007339 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 282.399835 seconds.
-  path: Assets/kaede/Material/block.mat
-  artifactKey: Guid(dd239dcc53e247343b5bea504b8f8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/Material/block.mat using Guid(dd239dcc53e247343b5bea504b8f8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc12bb1365dbc7229a23d6fb3b66fb7') in 0.081137 seconds
-  Import took 0.086614 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004912 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207F7E1D460 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206409DA010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207CF36F4D0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDCDC040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641180040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822198020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641668020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F81F78B0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD8AE740 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD3B4760 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208234CC030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020823340080 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDCDC040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.294 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2636.
-Total: 2.882500 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.291900 ms  DeleteObjects: 0.250700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006338 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000207CF36C340 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640900040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207CF36F4D0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641F52420 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640ABA060 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641668020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F81F78B0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD8AE740 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC79B030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208234CC030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208236C6030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641F52420 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.367 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2639.
-Total: 2.880700 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.149100 ms MarkObjects: 2.252800 ms  DeleteObjects: 0.180800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004586 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020641F9C180 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FCD12040 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FE2660A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDD1C020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020640ABA060 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641668020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641DF60A0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD8AE740 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDE4B020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC702010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822B080F0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDD1C020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.212 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2642.
-Total: 2.846900 ms (FindLiveObjects: 0.307300 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.304800 ms  DeleteObjects: 0.147900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004837 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020641F9C180 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641CA0010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020822567030 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641F52420 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641CA0010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206416DE010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641668020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207F81F78B0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FD8AE740 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FDFF3020 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207FC702010 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020823C540C0 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020641F52420 doesn't match image C:\Users\kaede\OneDrive\デスクトップ\jam\gamejam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.299 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2645.
-Total: 2.562300 ms (FindLiveObjects: 0.211900 ms CreateObjectMapping: 0.072400 ms MarkObjects: 2.112400 ms  DeleteObjects: 0.164400 ms)
+  Time since last request: 82.937924 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_0.asset
+  artifactKey: Guid(8a6255e60e17e984aa6b3af01c85cc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_0.asset using Guid(8a6255e60e17e984aa6b3af01c85cc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba5420f659b2586c9b3322e8687108e') in 0.024996 seconds
+  Import took 0.030106 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 366.202153 seconds.
-  path: Assets/kaede/prefab/Grid.prefab
-  artifactKey: Guid(6e8701b506cb97948ad9d059ecef86e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/prefab/Grid.prefab using Guid(6e8701b506cb97948ad9d059ecef86e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04da19f69f01952578c2224a9820af31') in 0.046746 seconds
-  Import took 0.052666 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_19.asset
+  artifactKey: Guid(f3c9d656e47b5a44bbffacab61e35ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_19.asset using Guid(f3c9d656e47b5a44bbffacab61e35ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ff9662e75e44ff0f43a1f01c4022ff') in 0.018092 seconds
+  Import took 0.024125 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008736 seconds.
-  path: Assets/kaede/prefab/Grid.prefab
-  artifactKey: Guid(6e8701b506cb97948ad9d059ecef86e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/prefab/Grid.prefab using Guid(6e8701b506cb97948ad9d059ecef86e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04da19f69f01952578c2224a9820af31') in 0.006365 seconds
-  Import took 0.011451 seconds .
+  Time since last request: 0.000310 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_52.asset
+  artifactKey: Guid(d03ace1d6c1775b4c9b857c5f72c84b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_52.asset using Guid(d03ace1d6c1775b4c9b857c5f72c84b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4330a7c76852f6f100db7424449026b7') in 0.033118 seconds
+  Import took 0.039196 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.004559 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf30c6199488fe59838d38d308fcda7e') in 0.008801 seconds
-  Import took 0.012783 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_42.asset
+  artifactKey: Guid(6e9dc601a98d1ea4db06eda158662ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_42.asset using Guid(6e9dc601a98d1ea4db06eda158662ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628b5cb4ea2ea6af6fb44d7833e764f0') in 0.019376 seconds
+  Import took 0.024540 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.254479 seconds.
-  path: Assets/kaede/kaede.unity
-  artifactKey: Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/kaede.unity using Guid(b66997e62afe1f24b86bf5d092683e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992c3dac070b586410b3113f65d2bb88') in 0.009963 seconds
-  Import took 0.014077 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_14.asset
+  artifactKey: Guid(0e88daf50aa163b468749b1cd0624be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_14.asset using Guid(0e88daf50aa163b468749b1cd0624be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617ce6a7d2b45d03a7cbc652d5f1774b') in 0.014229 seconds
+  Import took 0.018672 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.394465 seconds.
-  path: Assets/kaede/prefab/back.prefab
-  artifactKey: Guid(d42364ed354f50a49bed52741f82eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/prefab/back.prefab using Guid(d42364ed354f50a49bed52741f82eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab62844998bf8ee968e62f44a910486d') in 0.057267 seconds
-  Import took 0.061553 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_15.asset
+  artifactKey: Guid(4baf1fc9fa5b1a14eb192252d898617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_15.asset using Guid(4baf1fc9fa5b1a14eb192252d898617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da98ab0f13d34d080539c99619214a41') in 0.015585 seconds
+  Import took 0.020084 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003612 seconds.
-  path: Assets/kaede/prefab/back.prefab
-  artifactKey: Guid(d42364ed354f50a49bed52741f82eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaede/prefab/back.prefab using Guid(d42364ed354f50a49bed52741f82eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab62844998bf8ee968e62f44a910486d') in 0.015894 seconds
-  Import took 0.020190 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_9.asset
+  artifactKey: Guid(85bbec0d0b33194488c512439c54d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_9.asset using Guid(85bbec0d0b33194488c512439c54d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dff951d6fd6f56d1bc4188732b5a196') in 0.015049 seconds
+  Import took 0.018950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.655797 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6b13705b4df79097cae396003c3f6d') in 0.006750 seconds
-  Import took 0.011898 seconds .
+  Time since last request: 0.000270 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_11.asset
+  artifactKey: Guid(23bf0547072822947a31671690fb6168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_11.asset using Guid(23bf0547072822947a31671690fb6168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1d95fa96af75ac0a72acb7848b004c') in 0.016889 seconds
+  Import took 0.021661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_30.asset
+  artifactKey: Guid(925c1860fc0ebd444b2c36c999b42751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_30.asset using Guid(925c1860fc0ebd444b2c36c999b42751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd351de28d5d5addfd0d51dd4064c094') in 0.015583 seconds
+  Import took 0.020050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_35.asset
+  artifactKey: Guid(5f53d8d8c076c3a468c65f5d8b0c5570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_35.asset using Guid(5f53d8d8c076c3a468c65f5d8b0c5570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68db5f18c8f4f84d7009e831bec5e4fd') in 0.015228 seconds
+  Import took 0.019130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_48.asset
+  artifactKey: Guid(b766dd1456a373e4cb4ef3d48c46bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_48.asset using Guid(b766dd1456a373e4cb4ef3d48c46bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b135a29ef9eb2e85bf625815ff53a50') in 0.016321 seconds
+  Import took 0.020101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_28.asset
+  artifactKey: Guid(cd19d4dc6563c9d4d9b84025bc6bc8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_28.asset using Guid(cd19d4dc6563c9d4d9b84025bc6bc8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd333e33955798e7aa7a39de8c1511c02') in 0.015827 seconds
+  Import took 0.020424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_3.asset
+  artifactKey: Guid(f4d7fba5cd06f7c4686c738a6f65df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_3.asset using Guid(f4d7fba5cd06f7c4686c738a6f65df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41f6ef417f39f5cd9afc930101e7127') in 0.016843 seconds
+  Import took 0.022260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_45.asset
+  artifactKey: Guid(c980c99e15dfd584dbe8b6ec82cd13bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_45.asset using Guid(c980c99e15dfd584dbe8b6ec82cd13bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f9f152e2aa5d23294b2c8ada96e6c0') in 0.015944 seconds
+  Import took 0.020337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_34.asset
+  artifactKey: Guid(d82cf57b19670384ea72c0806653a9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_34.asset using Guid(d82cf57b19670384ea72c0806653a9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbc84bb991d9be3fd22b1ddd1a5934f') in 0.016445 seconds
+  Import took 0.020730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_50.asset
+  artifactKey: Guid(b02b35bca84d4fc42a19f97d62e5e670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_50.asset using Guid(b02b35bca84d4fc42a19f97d62e5e670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403f7ddc555bbef13a8a8348392fec2e') in 0.017120 seconds
+  Import took 0.022006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_17.asset
+  artifactKey: Guid(424fb99fd0042d5488e5d2489675c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_17.asset using Guid(424fb99fd0042d5488e5d2489675c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeb2aa4badac57bc65b2e6aae5b0fbe') in 0.018051 seconds
+  Import took 0.022905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_23.asset
+  artifactKey: Guid(ed9ba84f08c2b39438fbefc3fe121cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_23.asset using Guid(ed9ba84f08c2b39438fbefc3fe121cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0714ace06956ba3f26943e3979084032') in 0.014824 seconds
+  Import took 0.018296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_21.asset
+  artifactKey: Guid(38a89b1cab01cf142b764e21fc1566e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_21.asset using Guid(38a89b1cab01cf142b764e21fc1566e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b04bf6acc2c2bcb977d4d2d4e98ba51') in 0.013382 seconds
+  Import took 0.017491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_1.asset
+  artifactKey: Guid(88a1177a020b0154688ed0e271b3c6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_1.asset using Guid(88a1177a020b0154688ed0e271b3c6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b861369a2289d25acf8ad9a7c4f6cb') in 0.016181 seconds
+  Import took 0.020361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_32.asset
+  artifactKey: Guid(fb37e7c94364b3c47b8bceb760a049aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_32.asset using Guid(fb37e7c94364b3c47b8bceb760a049aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c83612bba0f4ac392eb059fd6b0e0d') in 0.013939 seconds
+  Import took 0.018233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_7.asset
+  artifactKey: Guid(353d2d4b249e0a24890e9ee0a89cb447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_7.asset using Guid(353d2d4b249e0a24890e9ee0a89cb447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160aa7f43eba7f10be50b940153c6956') in 0.014233 seconds
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_39.asset
+  artifactKey: Guid(e9295c1e8384b1049abff766dd0c9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_39.asset using Guid(e9295c1e8384b1049abff766dd0c9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70289651b404f2741d0be6ee8b69d3c6') in 0.012936 seconds
+  Import took 0.016779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_2.asset
+  artifactKey: Guid(5b6542c0ba94af942878f98156fb7e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_2.asset using Guid(5b6542c0ba94af942878f98156fb7e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c337c7a42f76b954c08faea2ff7e28') in 0.018903 seconds
+  Import took 0.022416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_16.asset
+  artifactKey: Guid(daea8270d629e6442b14f87e9bb19428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_16.asset using Guid(daea8270d629e6442b14f87e9bb19428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c9f8a2551ad432183b45b60e001825') in 0.013742 seconds
+  Import took 0.017301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_4.asset
+  artifactKey: Guid(813f4ca46cc13fc408416246fe87fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_4.asset using Guid(813f4ca46cc13fc408416246fe87fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c685923055f553d4bd2432399894db7d') in 0.014018 seconds
+  Import took 0.018097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_13.asset
+  artifactKey: Guid(21616332d303321469c1e49e42cf11e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_13.asset using Guid(21616332d303321469c1e49e42cf11e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a63f1fadcedc3e3610c7d533bf74ed') in 0.017470 seconds
+  Import took 0.021340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_41.asset
+  artifactKey: Guid(073cd82412c8bcd44a357313fcd2f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_41.asset using Guid(073cd82412c8bcd44a357313fcd2f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddf31ef47740d06df0e4116a6f49937') in 0.016180 seconds
+  Import took 0.020423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_12.asset
+  artifactKey: Guid(fae8f91509040b448945c2ae6bd2e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_12.asset using Guid(fae8f91509040b448945c2ae6bd2e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4440b5662391bd844182f8a231f6c47') in 0.011462 seconds
+  Import took 0.016086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_20.asset
+  artifactKey: Guid(7c0e011dd5d39844e8089fd8df511817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_20.asset using Guid(7c0e011dd5d39844e8089fd8df511817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae40dd380069719f9c5f0714f7c8d02') in 0.014136 seconds
+  Import took 0.018191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_37.asset
+  artifactKey: Guid(c9d1c9e1b9789bb49a6138c56c9b1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_37.asset using Guid(c9d1c9e1b9789bb49a6138c56c9b1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed4872cce9a6fae36658277af905486') in 0.012705 seconds
+  Import took 0.016768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_49.asset
+  artifactKey: Guid(abf6a7cc68ff71e4888595c207c69cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_49.asset using Guid(abf6a7cc68ff71e4888595c207c69cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596faf7a4ad69a9259b112db01f693b5') in 0.012639 seconds
+  Import took 0.016820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_6.asset
+  artifactKey: Guid(eb40d3a4003e34f47ac35e84e2aae147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_6.asset using Guid(eb40d3a4003e34f47ac35e84e2aae147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea41f7617a0eed63440dc78bed44bc09') in 0.012960 seconds
+  Import took 0.016903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_38.asset
+  artifactKey: Guid(af41690e12987204e8eef58b36c73025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_38.asset using Guid(af41690e12987204e8eef58b36c73025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fbc752426471f97eacac4b6e6cce1e') in 0.013263 seconds
+  Import took 0.017344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_51.asset
+  artifactKey: Guid(4f74d62389c4dd34c8b1d2f5f0b92e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_51.asset using Guid(4f74d62389c4dd34c8b1d2f5f0b92e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ce2e0a48fdbde6d6b661a02491d7d5') in 0.013182 seconds
+  Import took 0.016774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_25.asset
+  artifactKey: Guid(27205cbf2df73fc48800b4efa1ab194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_25.asset using Guid(27205cbf2df73fc48800b4efa1ab194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccee1b360efa226b4045d942d662079') in 0.012662 seconds
+  Import took 0.016362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_10.asset
+  artifactKey: Guid(6b0276a6b056dbb4ea42abce4dc2c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_10.asset using Guid(6b0276a6b056dbb4ea42abce4dc2c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d9a6e620ffc2f70ffa8386595e1082') in 0.012694 seconds
+  Import took 0.016528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_27.asset
+  artifactKey: Guid(110db427eb107fa459095b10ed697a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_27.asset using Guid(110db427eb107fa459095b10ed697a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765267ad59f1d467abc2fa867df95795') in 0.013145 seconds
+  Import took 0.017013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_31.asset
+  artifactKey: Guid(573f0e2fe1e4b04498f0638dad5d1557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_31.asset using Guid(573f0e2fe1e4b04498f0638dad5d1557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ba399e963e665598a9a746d2798d95') in 0.013159 seconds
+  Import took 0.016903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_5.asset
+  artifactKey: Guid(beea7cb2094c6e54085ff23b16c4f010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_5.asset using Guid(beea7cb2094c6e54085ff23b16c4f010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86d293199e7b92486fbdb381d7ede91') in 0.012646 seconds
+  Import took 0.016666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_44.asset
+  artifactKey: Guid(40dea9767003efc488406e1231581efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_44.asset using Guid(40dea9767003efc488406e1231581efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98f894b9ceda13b56c66f7a8997ad24') in 0.011932 seconds
+  Import took 0.015639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_24.asset
+  artifactKey: Guid(19e41f9b295600b4db80d9fce53c3ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_24.asset using Guid(19e41f9b295600b4db80d9fce53c3ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2336b515d48b1511ad525990785af9b9') in 0.012722 seconds
+  Import took 0.016753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_40.asset
+  artifactKey: Guid(36228352b1080ea47811607d01753e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_40.asset using Guid(36228352b1080ea47811607d01753e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7eb9153450a2d40856d74e17540e17') in 0.012835 seconds
+  Import took 0.016676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_46.asset
+  artifactKey: Guid(4204236148eda3741bbb49b2e8412704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_46.asset using Guid(4204236148eda3741bbb49b2e8412704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45445d58baf2089cc2add8897d0c5712') in 0.012778 seconds
+  Import took 0.016315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_18.asset
+  artifactKey: Guid(865453fe7015eac40a38c1e9b073eaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_18.asset using Guid(865453fe7015eac40a38c1e9b073eaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea799fbc083512889a7d3c473727a84f') in 0.013050 seconds
+  Import took 0.016930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_26.asset
+  artifactKey: Guid(9d0d1749310bcd24a98f89d51632f46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_26.asset using Guid(9d0d1749310bcd24a98f89d51632f46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd3735e7e7d902befcb03ebfd93b789') in 0.012514 seconds
+  Import took 0.016189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_33.asset
+  artifactKey: Guid(d2d4dbdba27e1754493e88c8de3ee7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_33.asset using Guid(d2d4dbdba27e1754493e88c8de3ee7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9c2367e4e315081ece339a127612d4') in 0.013227 seconds
+  Import took 0.016832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_43.asset
+  artifactKey: Guid(2bff5cccb66ac094d9327b475f895d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_43.asset using Guid(2bff5cccb66ac094d9327b475f895d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a56af231a84144d4ed98683e4301d2') in 0.013197 seconds
+  Import took 0.016755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_36.asset
+  artifactKey: Guid(42618b4c58468a14a83c19157e6af261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_36.asset using Guid(42618b4c58468a14a83c19157e6af261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a48ec1345bc093d2f0884f6cdc1342') in 0.013284 seconds
+  Import took 0.017139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_47.asset
+  artifactKey: Guid(4b1c3d296a822b14696a3d7e2d19d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_47.asset using Guid(4b1c3d296a822b14696a3d7e2d19d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40e14e9ab2d1dbe383d7c5972b71b6d') in 0.013454 seconds
+  Import took 0.017242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_22.asset
+  artifactKey: Guid(4c8d14ae839fb0741adb2467be7876cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_22.asset using Guid(4c8d14ae839fb0741adb2467be7876cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df91d805291ec9b19d066af5de36ed24') in 0.012973 seconds
+  Import took 0.017084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_29.asset
+  artifactKey: Guid(4a0e78cf3c0160749a300a409ed7e8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_29.asset using Guid(4a0e78cf3c0160749a300a409ed7e8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b76f0564c122c57ff95cb50d211194') in 0.011598 seconds
+  Import took 0.015838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_8.asset
+  artifactKey: Guid(79c56271f22c88c44bd56f3486b47a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/tile_palette_Tera/tileset-sliced_8.asset using Guid(79c56271f22c88c44bd56f3486b47a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bd0421bf2e1b82773f84f85eb6c762') in 0.013376 seconds
+  Import took 0.017077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.186972 seconds.
+  path: Assets/kaede/tile_palette/BackGround/back.asset
+  artifactKey: Guid(304511b1929475c4b813bb8e6a30011b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/BackGround/back.asset using Guid(304511b1929475c4b813bb8e6a30011b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea0b90552d5338a82e992f42f6bb0b2') in 0.013741 seconds
+  Import took 0.018251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/kaede/tile_palette/BackGround/BackGround.prefab
+  artifactKey: Guid(8d2072851e12767479de4d3f7b559509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/BackGround/BackGround.prefab using Guid(8d2072851e12767479de4d3f7b559509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a616b766111ae10ec59d7cc9dc4c0b') in 0.016793 seconds
+  Import took 0.021244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 242.595714 seconds.
+  path: Assets/kaede/Atlas2
+  artifactKey: Guid(c25569f0baafb4e4c9861c19d0e94d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/Atlas2 using Guid(c25569f0baafb4e4c9861c19d0e94d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d563a13b94b39568bcda8c345307aa') in 0.012913 seconds
+  Import took 0.020517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041688 seconds.
+  path: Assets/kaede/Atlas2/build_atlas.png
+  artifactKey: Guid(a69a833b1cc1f06409102163b8129b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/Atlas2/build_atlas.png using Guid(a69a833b1cc1f06409102163b8129b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf1154b7d1ad49cf74249c669f9f9e4') in 0.027895 seconds
+  Import took 0.032780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/kaede/Atlas2/obj_misk_atlas.png
+  artifactKey: Guid(99dd3462368f2674c93d8e53e073b1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/Atlas2/obj_misk_atlas.png using Guid(99dd3462368f2674c93d8e53e073b1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d13c92a663f3768bafadeb2d010e53') in 0.050542 seconds
+  Import took 0.054422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.955588 seconds.
+  path: Assets/kaede/Atlas2/build_atlas.png
+  artifactKey: Guid(a69a833b1cc1f06409102163b8129b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/Atlas2/build_atlas.png using Guid(a69a833b1cc1f06409102163b8129b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c8b5b9d5ba5d2ef1c31831478d051d') in 0.023044 seconds
+  Import took 0.029374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/kaede/Atlas2/Attribution2.txt
+  artifactKey: Guid(b75f8b9de990c2347a1433acc04988b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/Atlas2/Attribution2.txt using Guid(b75f8b9de990c2347a1433acc04988b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f657ce56248c6a76d2e44c975a8e007e') in 0.016780 seconds
+  Import took 0.022296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.080320 seconds.
+  path: Assets/kaede/Atlas2/build_atlas.png
+  artifactKey: Guid(a69a833b1cc1f06409102163b8129b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/Atlas2/build_atlas.png using Guid(a69a833b1cc1f06409102163b8129b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9ad80506098f1813f5308af6202ad9') in 0.022829 seconds
+  Import took 0.027166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.886192 seconds.
+  path: Assets/kaede/Atlas2/build_atlas.png
+  artifactKey: Guid(a69a833b1cc1f06409102163b8129b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/Atlas2/build_atlas.png using Guid(a69a833b1cc1f06409102163b8129b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b89f9a55efec156a43b927080cecb6') in 0.028624 seconds
+  Import took 0.033504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.372642 seconds.
+  path: Assets/kaede/tile_palette/Block
+  artifactKey: Guid(221e149ba458cd146bff9837eecbcc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Block using Guid(221e149ba458cd146bff9837eecbcc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9267b1bff5b619b139c031ec289c9fa3') in 0.009248 seconds
+  Import took 0.014087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.213690 seconds.
+  path: Assets/kaede/tile_palette/Block/Block.prefab
+  artifactKey: Guid(9584e19fd7026ff4f82275ae76333a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kaede/tile_palette/Block/Block.prefab using Guid(9584e19fd7026ff4f82275ae76333a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1629f9d3f05989420fb4228d9e1a14') in 0.006583 seconds
+  Import took 0.010770 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
