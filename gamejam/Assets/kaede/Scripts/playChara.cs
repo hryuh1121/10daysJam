@@ -13,6 +13,8 @@ public class playChara : MonoBehaviour
 
     bool jumpF;
 
+    public ParticleSystem particle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -104,7 +106,9 @@ public class playChara : MonoBehaviour
             map.SetTile(finalPosition, null);
             tileCol.enabled = false;
             tileCol.enabled = true;
-        }
 
+            
+            Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
+        }  
     }
 }
