@@ -56,6 +56,7 @@ public class TyphoonScript : MonoBehaviour
         rotateText.enabled = true;
         startText.enabled = true;
         startText.color = Color.red;
+        
     }
 
     // Update is called once per frame
@@ -91,13 +92,17 @@ public class TyphoonScript : MonoBehaviour
         if (countUp <= timeLimit)
         {
             rotateText.enabled = false;
-            timeText.text = "GO!";
+            timeText.color = Color.red;
+            timeText.text = "   GO!!";
             isShot = true;
         }
         if(countUp <= timeLimit -1)
         {
             timeText.enabled = false;
         }
+
+        //transform.localScale = new Vector3(rotate/10, rotate/10, 0);
+        
 
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
