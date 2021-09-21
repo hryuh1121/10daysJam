@@ -26,6 +26,8 @@ public class TyphoonScript : MonoBehaviour
     //パーティクル
     public ParticleSystem particle;
 
+    public ParticleSystem storm;
+
     //leapを掛ける割合
     //[SerializeField, Range(0.001f, 0.01f)]
     //private float positionLerpSpeed = 0.001f;
@@ -196,7 +198,7 @@ public class TyphoonScript : MonoBehaviour
             tileCol.enabled = false;
             tileCol.enabled = true;
 
-
+            storm.transform.localScale += new Vector3(2.0f, 2.0f, 0.0f);
             Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
         }
     }

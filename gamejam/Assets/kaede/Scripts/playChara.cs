@@ -15,6 +15,8 @@ public class playChara : MonoBehaviour
 
     public ParticleSystem particle;
 
+    public ParticleSystem storm;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -107,7 +109,7 @@ public class playChara : MonoBehaviour
             tileCol.enabled = false;
             tileCol.enabled = true;
 
-            
+            storm.transform.localScale += new Vector3(2.0f, 2.0f,0.0f);
             Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 1.0f);
         }  
     }

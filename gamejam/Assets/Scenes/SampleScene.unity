@@ -14745,6 +14745,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d42364ed354f50a49bed52741f82eb83, type: 3}
+--- !u!198 &1846533973 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7065912158843382960, guid: 3f6d39e900c5ea74596fdc4caf5a05ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1925256040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1925256040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14964,6 +14970,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Typhoon
       objectReference: {fileID: 0}
+    - target: {fileID: 2193220808096332063, guid: 33edb2f18549abe4faa27cb46e7dfd8a,
+        type: 3}
+      propertyPath: storm
+      value: 
+      objectReference: {fileID: 1846533973}
     - target: {fileID: 2193220808096332063, guid: 33edb2f18549abe4faa27cb46e7dfd8a,
         type: 3}
       propertyPath: particle
