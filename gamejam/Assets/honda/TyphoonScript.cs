@@ -23,6 +23,9 @@ public class TyphoonScript : MonoBehaviour
 
     GameObject score;
 
+    //パーティクル
+    public ParticleSystem particle;
+
     //leapを掛ける割合
     //[SerializeField, Range(0.001f, 0.01f)]
     //private float positionLerpSpeed = 0.001f;
@@ -194,7 +197,7 @@ public class TyphoonScript : MonoBehaviour
             tileCol.enabled = true;
 
 
-            //Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
+            Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
         }
     }
 }

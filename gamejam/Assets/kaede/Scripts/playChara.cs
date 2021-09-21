@@ -108,7 +108,7 @@ public class playChara : MonoBehaviour
             tileCol.enabled = true;
 
             
-            //Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
+            Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 1.0f);
         }  
     }
 }
