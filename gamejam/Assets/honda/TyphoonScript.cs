@@ -162,6 +162,7 @@ public class TyphoonScript : MonoBehaviour
         {
             rotatestate = 0;
             rotate += 1;
+            storm.transform.localScale += new Vector3(0.05f, 0.05f, 0.0f);
         }
     }
 
@@ -250,7 +251,7 @@ public class TyphoonScript : MonoBehaviour
             tileCol.enabled = false;
             tileCol.enabled = true;
 
-            storm.transform.localScale += new Vector3(2.0f, 2.0f, 0.0f);
+           
             Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
         }
     }
