@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 
 public class TyphoonScript : MonoBehaviour
 {
     //何回転したかをカウントする
-    [SerializeField]
     private int rotate;
 
     //スティックの角度
@@ -14,14 +14,23 @@ public class TyphoonScript : MonoBehaviour
     private int rotatestate;
 
     //発射したか
-    [SerializeField]
     private bool isShot = false;
-
+    
     //台風のスピードに掛ける係数
-    [SerializeField]
     private float speed;
 
+    //
     GameObject score;
+
+    //タイマー
+    private float countUp;
+    private float timeLimit;
+
+    private float startCount;
+
+    public Text timeText;
+    public Text startText;
+    public Text rotateText;
 
     //パーティクル
     public ParticleSystem particle;
@@ -41,15 +50,67 @@ public class TyphoonScript : MonoBehaviour
         isShot = false;
         //speed = 0.01f;
         score = GameObject.Find("Canvas");
+
+        countUp = 10;
+        timeLimit = 0;
+        startCount = 3.5f;
+        timeText.enabled = true;
+        rotateText.enabled = true;
+        startText.enabled = true;
+        startText.color = Color.red;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        startCount -= Time.deltaTime;
+        //スタートするまでは入力を受け付けない
+        if (startCount>0.5)
+        {        
+            startText.text = startCount.ToString("f0");
+            return;
+        }
+        if(startCount<=0.5)
+        {//スタートテキスト
+            startText.text = "START!";
+        }
+        if(startCount<=-0.5)
+        {//スタートテキストを非表示
+            startText.enabled = false;
+        }
+
+        //時間をカウントする
+        countUp -= Time.deltaTime;
+        //時間を表示する
+        timeText.text = "残り時間:"+countUp.ToString("f0") + "秒";
+
+        if(countUp>timeLimit)
+        {//左スティックを回転させる時間
+            rotateText.text = "回せ！";
+        }
+
+        if (countUp <= timeLimit)
+        {
+            rotateText.enabled = false;
+            timeText.color = Color.red;
+            timeText.text = "   GO!!";
+            isShot = true;
+        }
+        if(countUp <= timeLimit -1)
+        {
+            timeText.enabled = false;
+        }
+
+        //transform.localScale = new Vector3(rotate/10, rotate/10, 0);
+        
+
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
 
         radian = Mathf.Atan2(v, h) * Mathf.Rad2Deg;
+
 
         //発射する前なら回転数追加
         if (!isShot)
@@ -59,8 +120,6 @@ public class TyphoonScript : MonoBehaviour
         }
 
         Shot();
-        
-
 
         //回転数によって視覚的に分かるようにする
         //float a = 1 + rotate / 10;
@@ -112,14 +171,7 @@ public class TyphoonScript : MonoBehaviour
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
 
-        //回転数が1以上でスティックを離したとき
-        if (rotate >= 1)
-        {
-            if (h == 0 && v == 0)
-            {
-                isShot = true;
-            }
-        }
+
 
 
 
