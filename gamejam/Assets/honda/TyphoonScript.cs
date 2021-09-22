@@ -15,7 +15,7 @@ public class TyphoonScript : MonoBehaviour
 
     //発射したか
     private bool isShot = false;
-    
+
     //台風のスピードに掛ける係数
     private float speed;
 
@@ -58,7 +58,7 @@ public class TyphoonScript : MonoBehaviour
         rotateText.enabled = true;
         startText.enabled = true;
         startText.color = Color.red;
-        
+
     }
 
     // Update is called once per frame
@@ -67,16 +67,16 @@ public class TyphoonScript : MonoBehaviour
 
         startCount -= Time.deltaTime;
         //スタートするまでは入力を受け付けない
-        if (startCount>0.5)
-        {        
+        if (startCount > 0.5)
+        {
             startText.text = startCount.ToString("f0");
             return;
         }
-        if(startCount<=0.5)
+        if (startCount <= 0.5)
         {//スタートテキスト
             startText.text = "START!";
         }
-        if(startCount<=-0.5)
+        if (startCount <= -0.5)
         {//スタートテキストを非表示
             startText.enabled = false;
         }
@@ -84,9 +84,9 @@ public class TyphoonScript : MonoBehaviour
         //時間をカウントする
         countUp -= Time.deltaTime;
         //時間を表示する
-        timeText.text = "残り時間:"+countUp.ToString("f0") + "秒";
+        timeText.text = "残り時間:" + countUp.ToString("f0") + "秒";
 
-        if(countUp>timeLimit)
+        if (countUp > timeLimit)
         {//左スティックを回転させる時間
             rotateText.text = "回せ！";
         }
@@ -98,13 +98,13 @@ public class TyphoonScript : MonoBehaviour
             timeText.text = "   GO!!";
             isShot = true;
         }
-        if(countUp <= timeLimit -1)
+        if (countUp <= timeLimit - 1)
         {
             timeText.enabled = false;
         }
 
         //transform.localScale = new Vector3(rotate/10, rotate/10, 0);
-        
+
 
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
@@ -162,7 +162,7 @@ public class TyphoonScript : MonoBehaviour
         {
             rotatestate = 0;
             rotate += 1;
-            storm.transform.localScale += new Vector3(0.05f, 0.05f, 0.0f);
+            storm.transform.localScale += new Vector3(0.025f, 0.025f, 0.0f);
         }
     }
 
@@ -251,8 +251,9 @@ public class TyphoonScript : MonoBehaviour
             tileCol.enabled = false;
             tileCol.enabled = true;
 
-           
-            Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
+
+            Destroy(Instantiate(particle, finalPosition + new Vector3(0,0,-2.0f), Quaternion.identity), 0.85f);
         }
+
     }
 }

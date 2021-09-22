@@ -15,6 +15,6 @@ public class CameraScript : MonoBehaviour
     void Update()
     {
         Vector3 typhoonPos = Typhoon.transform.position;
-        transform.position = new Vector3(typhoonPos.x+7, 0, -40);
+        transform.position = new Vector3(typhoonPos.x+7, 0, -10);
     }
 }

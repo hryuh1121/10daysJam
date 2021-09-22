@@ -15,7 +15,7 @@ public class playChara : MonoBehaviour
 
     public ParticleSystem particle;
 
-    public ParticleSystem storm;
+    //public ParticleSystem storm;
 
     // Start is called before the first frame update
     void Start()
@@ -63,12 +63,12 @@ public class playChara : MonoBehaviour
         Vector3 hitpos = Vector3.zero;
 
         //当たった座標の取得
-        foreach(ContactPoint2D point in collision.contacts)
+        foreach (ContactPoint2D point in collision.contacts)
         {
             hitpos = point.point;
         }
 
-        BoundsInt.PositionEnumerator position = 
+        BoundsInt.PositionEnumerator position =
             collision.gameObject.GetComponent<Tilemap>().cellBounds.allPositionsWithin;
 
         var allPosition = new List<Vector3>();
@@ -76,20 +76,20 @@ public class playChara : MonoBehaviour
         //一番近い場所を保存する変数
         int minPositionNum = 0;
 
-        foreach(var variable in position)
+        foreach (var variable in position)
         {
-            if(collision.gameObject.GetComponent<Tilemap>().GetTile(variable) != null)
+            if (collision.gameObject.GetComponent<Tilemap>().GetTile(variable) != null)
             {
                 allPosition.Add(variable);
             }
         }
 
         //for文で探査する。でも初期化で0入れてるから1からスタート
-        for(int i = 1;i < allPosition.Count; i++)
+        for (int i = 1; i < allPosition.Count; i++)
         {
             //それぞれの当たった場所からの大きさを取得、最小を更新したらminPositionNumを更新
-            if((hitpos - allPosition[i]).magnitude<
-                (hitpos -allPosition[minPositionNum]).magnitude)
+            if ((hitpos - allPosition[i]).magnitude <
+                (hitpos - allPosition[minPositionNum]).magnitude)
             {
                 minPositionNum = i;
             }
@@ -100,7 +100,7 @@ public class playChara : MonoBehaviour
 
         TileBase tiletmp = collision.gameObject.GetComponent<Tilemap>().GetTile(finalPosition);
 
-        if(tiletmp != null)
+        if (tiletmp != null)
         {
             Tilemap map = collision.gameObject.GetComponent<Tilemap>();
             TilemapCollider2D tileCol = collision.gameObject.GetComponent<TilemapCollider2D>();
@@ -109,8 +109,8 @@ public class playChara : MonoBehaviour
             tileCol.enabled = false;
             tileCol.enabled = true;
 
-            storm.transform.localScale += new Vector3(2.0f, 2.0f,0.0f);
-            Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 1.0f);
-        }  
+            //storm.transform.localScale += new Vector3(2.0f, 2.0f,0.0f);
+            Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
+        }
     }
 }
