@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TyphoonScript : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class TyphoonScript : MonoBehaviour
     private float speed;
 
     //
-    GameObject score;
+    public GameObject score;
 
     //タイマー
     private float countUp;
@@ -31,15 +32,20 @@ public class TyphoonScript : MonoBehaviour
     public Text timeText;
     public Text startText;
     public Text rotateText;
+    public Text sceneText;
 
     //パーティクル
     public ParticleSystem particle;
 
     public ParticleSystem storm;
 
+    AudioSource audioSource;
     //leapを掛ける割合
     //[SerializeField, Range(0.001f, 0.01f)]
     //private float positionLerpSpeed = 0.001f;
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -47,9 +53,11 @@ public class TyphoonScript : MonoBehaviour
         rotate = 0;
         radian = 0;
         rotatestate = 0;
+        speed = 0;
         isShot = false;
         //speed = 0.01f;
         score = GameObject.Find("Canvas");
+   
 
         countUp = 10;
         timeLimit = 0;
@@ -57,26 +65,28 @@ public class TyphoonScript : MonoBehaviour
         timeText.enabled = true;
         rotateText.enabled = true;
         startText.enabled = true;
+        sceneText.enabled = false;
         startText.color = Color.red;
-
+        //Componentを取得
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+       
         startCount -= Time.deltaTime;
         //スタートするまでは入力を受け付けない
-        if (startCount > 0.5)
-        {
+        if (startCount>0.5)
+        {        
             startText.text = startCount.ToString("f0");
             return;
         }
-        if (startCount <= 0.5)
+        if(startCount<=0.5)
         {//スタートテキスト
             startText.text = "START!";
         }
-        if (startCount <= -0.5)
+        if(startCount<=-0.5)
         {//スタートテキストを非表示
             startText.enabled = false;
         }
@@ -84,11 +94,11 @@ public class TyphoonScript : MonoBehaviour
         //時間をカウントする
         countUp -= Time.deltaTime;
         //時間を表示する
-        timeText.text = "残り時間:" + countUp.ToString("f0") + "秒";
+        timeText.text = "残り時間:"+countUp.ToString("f0") + "秒";
 
-        if (countUp > timeLimit)
+        if(countUp>timeLimit)
         {//左スティックを回転させる時間
-            rotateText.text = "回せ！";
+            rotateText.text = "まわせ！";
         }
 
         if (countUp <= timeLimit)
@@ -98,13 +108,13 @@ public class TyphoonScript : MonoBehaviour
             timeText.text = "   GO!!";
             isShot = true;
         }
-        if (countUp <= timeLimit - 1)
+        if(countUp <= timeLimit -1)
         {
             timeText.enabled = false;
         }
 
         //transform.localScale = new Vector3(rotate/10, rotate/10, 0);
-
+        
 
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
@@ -124,6 +134,26 @@ public class TyphoonScript : MonoBehaviour
         //回転数によって視覚的に分かるようにする
         //float a = 1 + rotate / 10;
         //transform.localScale = new Vector3(1, a, 0);
+
+        //台風のspeedが0になったら
+        if(isShot == true && speed == 0)
+        {
+            startText.enabled = true;
+            int lastScore = score.GetComponent<ScoreScript>().GetScore();
+            startText.text = lastScore.ToString();
+            sceneText.enabled = true;
+
+            //ボタンが押されたらタイトルへ
+            if (Input.GetButtonDown("Fire1"))
+            {
+                SceneManager.LoadScene("Title");
+            }
+            //ボタンが押されたらアプリ終了
+            if (Input.GetButtonDown("Fire2"))
+            {
+                Application.Quit();
+            }
+        }
     }
 
     //回転数取得関数
@@ -162,7 +192,7 @@ public class TyphoonScript : MonoBehaviour
         {
             rotatestate = 0;
             rotate += 1;
-            storm.transform.localScale += new Vector3(0.025f, 0.025f, 0.0f);
+            storm.transform.localScale += new Vector3(0.05f, 0.05f, 0.0f);
         }
     }
 
@@ -185,10 +215,10 @@ public class TyphoonScript : MonoBehaviour
 
             {//乗算を使った減速
                 transform.position += new Vector3(speed, 0, 0);
-                if (speed > 0.001f)
+                if (speed > 0.002f)
                 {
                     speed *= 0.999f;
-                    score.GetComponent<ScoreScript>().AddScore(1);
+                    score.GetComponent<ScoreScript>().AddScore((int)(speed*300));
                 }
                 else
                 {
@@ -251,9 +281,8 @@ public class TyphoonScript : MonoBehaviour
             tileCol.enabled = false;
             tileCol.enabled = true;
 
-
-            Destroy(Instantiate(particle, finalPosition + new Vector3(0,0,-2.0f), Quaternion.identity), 0.85f);
+           audioSource.Play();
+            Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
         }
-
     }
 }

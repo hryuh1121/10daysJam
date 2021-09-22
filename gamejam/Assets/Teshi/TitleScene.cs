@@ -19,7 +19,7 @@ public class TitleScene : MonoBehaviour
         {
             SceneManager.LoadScene("SampleScene");
         }
-    }
+    }   
 
     void ChangeScene()
     {
