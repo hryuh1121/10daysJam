@@ -148,6 +148,11 @@ public class TyphoonScript : MonoBehaviour
             {
                 SceneManager.LoadScene("Title");
             }
+            //ボタンが押されたらアプリ終了
+            if (Input.GetButtonDown("Fire2"))
+            {
+                Application.Quit();
+            }
         }
     }
 
@@ -210,7 +215,7 @@ public class TyphoonScript : MonoBehaviour
 
             {//乗算を使った減速
                 transform.position += new Vector3(speed, 0, 0);
-                if (speed > 0.001f)
+                if (speed > 0.002f)
                 {
                     speed *= 0.999f;
                     score.GetComponent<ScoreScript>().AddScore((int)(speed*300));
