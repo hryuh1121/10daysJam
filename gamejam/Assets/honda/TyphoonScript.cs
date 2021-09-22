@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class TyphoonScript : MonoBehaviour
 {
     //何回転したかをカウントする
-    private int rotate;
+    public static int rotate;
 
     //スティックの角度
     private float radian;
