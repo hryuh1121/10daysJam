@@ -14864,6 +14864,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f6d39e900c5ea74596fdc4caf5a05ca, type: 3}
+--- !u!1 &2020759711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1742051651833448368, guid: e7e2ca8cfa63a6a4f8a447b8ce62eff4,
+    type: 3}
+  m_PrefabInstance: {fileID: 696489563}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &2073572766
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -15014,6 +15020,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Typhoon
       objectReference: {fileID: 0}
+    - target: {fileID: 2193220808096332063, guid: 33edb2f18549abe4faa27cb46e7dfd8a,
+        type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2020759711}
     - target: {fileID: 2193220808096332063, guid: 33edb2f18549abe4faa27cb46e7dfd8a,
         type: 3}
       propertyPath: storm

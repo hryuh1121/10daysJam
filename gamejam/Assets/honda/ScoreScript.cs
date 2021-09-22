@@ -29,4 +29,10 @@ public class ScoreScript : MonoBehaviour
     {
         Score = Score + point;
     }
+
+    //スコア取得クラス
+    public int GetScore()
+    {
+        return Score;
+    }
 }

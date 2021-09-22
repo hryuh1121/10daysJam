@@ -15,12 +15,12 @@ public class TyphoonScript : MonoBehaviour
 
     //発射したか
     private bool isShot = false;
-    
+
     //台風のスピードに掛ける係数
     private float speed;
 
     //
-    GameObject score;
+    public GameObject score;
 
     //タイマー
     private float countUp;
@@ -37,9 +37,13 @@ public class TyphoonScript : MonoBehaviour
 
     public ParticleSystem storm;
 
+
     //leapを掛ける割合
     //[SerializeField, Range(0.001f, 0.01f)]
     //private float positionLerpSpeed = 0.001f;
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -47,9 +51,11 @@ public class TyphoonScript : MonoBehaviour
         rotate = 0;
         radian = 0;
         rotatestate = 0;
+        speed = 0;
         isShot = false;
         //speed = 0.01f;
         score = GameObject.Find("Canvas");
+   
 
         countUp = 10;
         timeLimit = 0;
@@ -64,7 +70,7 @@ public class TyphoonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+       
         startCount -= Time.deltaTime;
         //スタートするまでは入力を受け付けない
         if (startCount>0.5)
@@ -124,6 +130,14 @@ public class TyphoonScript : MonoBehaviour
         //回転数によって視覚的に分かるようにする
         //float a = 1 + rotate / 10;
         //transform.localScale = new Vector3(1, a, 0);
+
+        //台風のspeedが0になったら
+        if(isShot == true && speed == 0)
+        {
+            startText.enabled = true;
+            int lastScore = score.GetComponent<ScoreScript>().GetScore();
+            startText.text = lastScore.ToString();
+        }
     }
 
     //回転数取得関数
@@ -188,7 +202,7 @@ public class TyphoonScript : MonoBehaviour
                 if (speed > 0.001f)
                 {
                     speed *= 0.999f;
-                    score.GetComponent<ScoreScript>().AddScore(1);
+                    score.GetComponent<ScoreScript>().AddScore((int)(speed*300));
                 }
                 else
                 {
