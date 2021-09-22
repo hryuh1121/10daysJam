@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TyphoonScript : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class TyphoonScript : MonoBehaviour
     public Text timeText;
     public Text startText;
     public Text rotateText;
+    public Text sceneText;
 
     //パーティクル
     public ParticleSystem particle;
@@ -63,6 +65,7 @@ public class TyphoonScript : MonoBehaviour
         timeText.enabled = true;
         rotateText.enabled = true;
         startText.enabled = true;
+        sceneText.enabled = false;
         startText.color = Color.red;
         
     }
@@ -94,7 +97,7 @@ public class TyphoonScript : MonoBehaviour
 
         if(countUp>timeLimit)
         {//左スティックを回転させる時間
-            rotateText.text = "回せ！";
+            rotateText.text = "まわせ！";
         }
 
         if (countUp <= timeLimit)
@@ -137,6 +140,13 @@ public class TyphoonScript : MonoBehaviour
             startText.enabled = true;
             int lastScore = score.GetComponent<ScoreScript>().GetScore();
             startText.text = lastScore.ToString();
+            sceneText.enabled = true;
+
+            //ボタンが押されたらタイトルへ
+            if (Input.GetButtonDown("Fire1"))
+            {
+                SceneManager.LoadScene("Title");
+            }
         }
     }
 
