@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class TyphoonScript : MonoBehaviour
 {
     //何回転したかをカウントする
-    public static int rotate;
+    private int rotate;
 
     //スティックの角度
     private float radian;
@@ -37,7 +37,7 @@ public class TyphoonScript : MonoBehaviour
 
     public ParticleSystem storm;
 
-
+    AudioSource audioSource;
     //leapを掛ける割合
     //[SerializeField, Range(0.001f, 0.01f)]
     //private float positionLerpSpeed = 0.001f;
@@ -64,7 +64,8 @@ public class TyphoonScript : MonoBehaviour
         rotateText.enabled = true;
         startText.enabled = true;
         startText.color = Color.red;
-        
+        //Componentを取得
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -265,7 +266,7 @@ public class TyphoonScript : MonoBehaviour
             tileCol.enabled = false;
             tileCol.enabled = true;
 
-           
+           audioSource.Play();
             Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
         }
     }

@@ -4,28 +4,21 @@ using UnityEngine;
 
 public class SEscript : MonoBehaviour
 {
+    public AudioClip clip1;
+    public AudioClip clip2;
 
-     public AudioSource audioSource1;
-    public AudioSource audioSource2;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
         //Component‚ðŽæ“¾
-        audioSource1 = GetComponent<AudioSource>();
-        audioSource2 = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(audioSource1);
-        if (TyphoonScript.rotate < 3)
-        {
-            audioSource1.Play();
-        }
-        if (TyphoonScript.rotate > 3)
-        {
-            audioSource2.Play();
-        }
+        audioSource.PlayOneShot(clip1);
+
     }
 }
