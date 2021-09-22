@@ -282,7 +282,7 @@ public class TyphoonScript : MonoBehaviour
             tileCol.enabled = true;
 
            audioSource.Play();
-            Destroy(Instantiate(particle, finalPosition + Vector3.one * 0.5f, Quaternion.identity), 0.85f);
+            Destroy(Instantiate(particle, finalPosition + new Vector3(0,0,-2.0f), Quaternion.identity), 0.85f);
         }
     }
 }
