@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - GamePlay
     - ScoreScript
     - TitleScene
     - TyphoonScript
@@ -56,6 +57,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -69,19 +72,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2648}
     - Class: 114
-      Script: {instanceID: 2818}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3034}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3268}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 5090}
+    - Class: 114
+      Script: {instanceID: 5410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -140,25 +145,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 1864}
+      Script: {instanceID: 1854}
     - Class: 114
-      Script: {instanceID: 2238}
+      Script: {instanceID: 2228}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2648}
     - Class: 114
-      Script: {instanceID: 2818}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 3034}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3268}
     - Class: 114
-      Script: {instanceID: 3846}
+      Script: {instanceID: 3838}
     - Class: 114
-      Script: {instanceID: 4712}
+      Script: {instanceID: 4704}
     - Class: 114
-      Script: {instanceID: 5086}
+      Script: {instanceID: 5078}
     - Class: 114
-      Script: {instanceID: 5288}
+      Script: {instanceID: 5280}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -228,7 +233,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 50259e0173e50e7d7deb2b03db628dbe
+      Hash: f0d770683397d01c8807160a9f7bf143
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playChara
@@ -358,6 +363,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 739b5fb05f76633cbae12ec5d1be0b74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: plane
   - hash:
       serializedVersion: 2
       Hash: ccaec30d8a9f82d6a48929fd97ab0c4a
@@ -714,7 +725,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 46d9486e8fe7c83ab61829080990f8d1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TitleScene
@@ -724,6 +735,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: 46d9486e8fe7c83ab61829080990f8d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GamePlay
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -758,4 +775,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Teshi/Title.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: "E:/K018A2019/3\u5E74/\u305D\u306E\u4ED6/gamajam/gamejam.exe"
+  playerPath: "C:/K018A2019/400_LE4B\u30DB\u30F3\u30C0_LE4B\u30B3\u30A4\u30B1_LE4B\u30C6\u30B7\u30ED\u30AE_\u305F\u3044\u3075\u3046\u307E\u304D\u307E\u304D/\u305F\u3044\u3075\u3046\u307E\u304D\u307E\u304D.exe"

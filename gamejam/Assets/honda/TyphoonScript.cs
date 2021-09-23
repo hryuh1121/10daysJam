@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class TyphoonScript : MonoBehaviour
 {
+
     //何回転したかをカウントする
     private int rotate;
 
@@ -44,9 +45,6 @@ public class TyphoonScript : MonoBehaviour
     //[SerializeField, Range(0.001f, 0.01f)]
     //private float positionLerpSpeed = 0.001f;
 
-
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -72,7 +70,7 @@ public class TyphoonScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
        
         startCount -= Time.deltaTime;
@@ -98,7 +96,7 @@ public class TyphoonScript : MonoBehaviour
 
         if(countUp>timeLimit)
         {//左スティックを回転させる時間
-            rotateText.text = "まわせ！";
+            rotateText.text = "左にまわせ！";
         }
 
         if (countUp <= timeLimit)
@@ -126,7 +124,7 @@ public class TyphoonScript : MonoBehaviour
         if (!isShot)
         {
             GetRotate();
-            speed = rotate * 0.01f;
+            speed = rotate * 0.04f;
         }
 
         Shot();
@@ -215,7 +213,7 @@ public class TyphoonScript : MonoBehaviour
 
             {//乗算を使った減速
                 transform.position += new Vector3(speed, 0, 0);
-                if (speed > 0.002f)
+                if (speed > 0.04f)
                 {
                     speed *= 0.999f;
                     score.GetComponent<ScoreScript>().AddScore((int)(speed*300));
@@ -282,7 +280,7 @@ public class TyphoonScript : MonoBehaviour
             tileCol.enabled = true;
 
            audioSource.Play();
-            Destroy(Instantiate(particle, finalPosition + new Vector3(0,0,-2.0f), Quaternion.identity), 0.85f);
+            Destroy(Instantiate(particle, finalPosition + new Vector3(0,0,-2.0f), Quaternion.identity), 1.2f);
         }
     }
 }
