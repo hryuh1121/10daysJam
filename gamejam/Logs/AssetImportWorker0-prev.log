@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'ja' Physical Memory: 7873 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'ja' Physical Memory: 16325 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,255 +11,385 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/10daysJam/gamejam
+C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60684
-Successfully changed project path to: C:/10daysJam/gamejam
-C:/10daysJam/gamejam
+54899
+Successfully changed project path to: C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
+C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/10daysJam/gamejam/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kaede/OneDrive/デスクトップ/jam/gamejam/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     6081 MB
-    Driver:   22.21.13.8216
+    VRAM:     6052 MB
+    Driver:   27.21.14.6677
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004318 seconds.
+Registered in 0.003355 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.84 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe
 Mono: successfully reloaded assembly
-- Completed reload, in  1.760 seconds
+- Completed reload, in  1.361 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010001 seconds.
+Registered in 0.004921 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.02 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.714 seconds
+- Completed reload, in  1.316 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.1 MB.
-System memory in use after: 170.0 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2543.
-Total: 3.557500 ms (FindLiveObjects: 0.339200 ms CreateObjectMapping: 0.132000 ms MarkObjects: 2.833500 ms  DeleteObjects: 0.250200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/honda/Typhoon.prefab
-  artifactKey: Guid(33edb2f18549abe4faa27cb46e7dfd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/honda/Typhoon.prefab using Guid(33edb2f18549abe4faa27cb46e7dfd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd70c68b36a8a3473f0d20e79f912fa') in 0.185614 seconds
-  Import took 0.192245 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007196 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.187 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2553.
-Total: 2.907000 ms (FindLiveObjects: 0.454300 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.141900 ms  DeleteObjects: 0.169700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007392 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.549 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 3.261200 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.160500 ms MarkObjects: 2.603900 ms  DeleteObjects: 0.152400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 284.219684 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0de6432ead40d5048946c8e62059cf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0de6432ead40d5048946c8e62059cf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a52056d5bdcab67576d5cec8c8d86a') in 0.015786 seconds
-  Import took 0.020196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.922954 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21111017c95eeb29c305322baed4dd7c') in 0.014989 seconds
-  Import took 0.020011 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005881 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2559.
-Total: 2.946500 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.131100 ms MarkObjects: 2.421200 ms  DeleteObjects: 0.177400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007093 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.118 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2562.
-Total: 2.769600 ms (FindLiveObjects: 0.486400 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.042900 ms  DeleteObjects: 0.139100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006032 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.267 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.7 MB.
+Unloading 2092 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.0 MB.
+System memory in use after: 167.9 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2565.
-Total: 3.030200 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.492000 ms  DeleteObjects: 0.173100 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 2.564800 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.103100 ms  DeleteObjects: 0.179600 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006181 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.189 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.8 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2568.
-Total: 2.857200 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.083400 ms MarkObjects: 2.316700 ms  DeleteObjects: 0.183700 ms)
+Received Import Request.
+  path: Assets/Teshi/MapTex
+  artifactKey: Guid(5e52369b460cf59438509fe8fa8d1714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex using Guid(5e52369b460cf59438509fe8fa8d1714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe83c8e025444c315ffacfeab8c98ed') in 0.011673 seconds
+  Import took 0.014995 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005982 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.8 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2571.
-Total: 2.832100 ms (FindLiveObjects: 0.215200 ms CreateObjectMapping: 0.075200 ms MarkObjects: 2.125000 ms  DeleteObjects: 0.415700 ms)
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_3.asset
+  artifactKey: Guid(e3537477cf4473f46a2a812528892aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_3.asset using Guid(e3537477cf4473f46a2a812528892aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b211ec177db65a607cc60d5f1fb902') in 0.100886 seconds
+  Import took 0.104610 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006579 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.437 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.8 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2574.
-Total: 3.990700 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.107000 ms MarkObjects: 3.425100 ms  DeleteObjects: 0.213300 ms)
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_0.asset
+  artifactKey: Guid(a129e6879753ca04ea4dcbd5b2ddb2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_0.asset using Guid(a129e6879753ca04ea4dcbd5b2ddb2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542f3d91dbd77b9f865af763bb624378') in 0.023520 seconds
+  Import took 0.027450 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.0 MB.
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_8.asset
+  artifactKey: Guid(25e724bde0e7e26498c857f09fc4b6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_8.asset using Guid(25e724bde0e7e26498c857f09fc4b6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b68e4eb7cd6c140b21a81508d06280') in 0.018281 seconds
+  Import took 0.022718 seconds .
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2574.
-Total: 3.181700 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.123200 ms MarkObjects: 2.665400 ms  DeleteObjects: 0.146500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_15.asset
+  artifactKey: Guid(3c0f0114b7c50c641993b8d3cdec53f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_15.asset using Guid(3c0f0114b7c50c641993b8d3cdec53f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad1847dc689775ddb3d52df72ff5667') in 0.021534 seconds
+  Import took 0.025943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_4.asset
+  artifactKey: Guid(330067b9351d4e84c832d5764aca0f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_4.asset using Guid(330067b9351d4e84c832d5764aca0f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89e4f1fa410ccfe6e174181ada75a98') in 0.017204 seconds
+  Import took 0.021768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_10.asset
+  artifactKey: Guid(a2eb73ef664f1eb43bb16c72d7e3f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_10.asset using Guid(a2eb73ef664f1eb43bb16c72d7e3f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14469a5a402f7c959ea278cb2aceafa') in 0.016626 seconds
+  Import took 0.020245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_9.asset
+  artifactKey: Guid(a062187496fc20e4594915853d4ec226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_9.asset using Guid(a062187496fc20e4594915853d4ec226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab0817cba2ce8be3eb872fd6113fbdf') in 0.019964 seconds
+  Import took 0.024389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_2.asset
+  artifactKey: Guid(5e917049b00f99c49b4deb034fc16a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_2.asset using Guid(5e917049b00f99c49b4deb034fc16a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f805f3016a04dae07d73306baad36') in 0.019138 seconds
+  Import took 0.023560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_14.asset
+  artifactKey: Guid(d0e39e8f670b0a042918f24bfebfe40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_14.asset using Guid(d0e39e8f670b0a042918f24bfebfe40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e924c60bffebf05d65f84b72573578') in 0.016840 seconds
+  Import took 0.021721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_5.asset
+  artifactKey: Guid(3b3cb01c4af9a224f9b2a7fd1d52838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_5.asset using Guid(3b3cb01c4af9a224f9b2a7fd1d52838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887b5f2c247fa8a4a9d36d4fb5d9837d') in 0.017246 seconds
+  Import took 0.021248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_11.asset
+  artifactKey: Guid(feafebe0941a2a74389efa7b7d2439d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_11.asset using Guid(feafebe0941a2a74389efa7b7d2439d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2b7a1e812bef32778bd4c3d7c6a6f7') in 0.014544 seconds
+  Import took 0.018281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_12.asset
+  artifactKey: Guid(40a4ea61710551a48857dfd63797769a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_12.asset using Guid(40a4ea61710551a48857dfd63797769a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc464c1892faa87153f60345e4efd830') in 0.020426 seconds
+  Import took 0.024887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png
+  artifactKey: Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955.png using Guid(f1573aae487afc648ba7038379560f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fc4588416493940eecaea04b31ed40') in 0.112145 seconds
+  Import took 0.116007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_13.asset
+  artifactKey: Guid(fe682b1ad68ab6249bf23cf04451a456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_13.asset using Guid(fe682b1ad68ab6249bf23cf04451a456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f5b5650b696aedfff74d587962c4ca') in 0.013399 seconds
+  Import took 0.017160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_6.asset
+  artifactKey: Guid(795556b128c7006499a9ea9d1036d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_6.asset using Guid(795556b128c7006499a9ea9d1036d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb58d71d4830045d1a5f8a0a04c29bc1') in 0.014275 seconds
+  Import took 0.018816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_1.asset
+  artifactKey: Guid(fc2aa74c56cc6b44192a26129fcca80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_1.asset using Guid(fc2aa74c56cc6b44192a26129fcca80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347cfba378c05b6aed645624db47a871') in 0.014808 seconds
+  Import took 0.018714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_7.asset
+  artifactKey: Guid(118c9f07fe43c704d83c642beebc405b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/MapTex/5ce0f5ba1687fdf2eeffe35e52064955_7.asset using Guid(118c9f07fe43c704d83c642beebc405b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce309b8196992e63130787a717a70c3') in 0.014714 seconds
+  Import took 0.018884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 869.215667 seconds.
+  path: Assets/Teshi/SE/se_gareki02.mp3
+  artifactKey: Guid(be503f06ab84e4642bc595793138fa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/se_gareki02.mp3 using Guid(be503f06ab84e4642bc595793138fa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02796418ee9eacee2d2790e77b28d16c') in 0.158824 seconds
+  Import took 0.163880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Teshi/SE/風が吹く2.mp3
+  artifactKey: Guid(e7fa0c0d24cf9f64e92dc81faffaf638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/風が吹く2.mp3 using Guid(e7fa0c0d24cf9f64e92dc81faffaf638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e9c661f25a7a747422c73e763cd9b') in 0.020225 seconds
+  Import took 0.023540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Teshi/SE/風が吹く3.mp3
+  artifactKey: Guid(fc2082dddd8ac4b478699a0593760cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/風が吹く3.mp3 using Guid(fc2082dddd8ac4b478699a0593760cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461e78e75e2b44fa5f425668ce4a19b9') in 0.024610 seconds
+  Import took 0.029201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Teshi/SE/ロボットを強く殴る2.mp3
+  artifactKey: Guid(6752f7285917af2409dc73c02b0f1f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/ロボットを強く殴る2.mp3 using Guid(6752f7285917af2409dc73c02b0f1f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a77e2a7d8ba2929cb729bd0059979f') in 0.025458 seconds
+  Import took 0.030597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Teshi/SE/風が吹く1.mp3
+  artifactKey: Guid(a4b7e3435db16fa4181d71fb5205a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/風が吹く1.mp3 using Guid(a4b7e3435db16fa4181d71fb5205a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b675bdeec6726f60624722a7eeb401cb') in 0.026352 seconds
+  Import took 0.030789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Teshi/SE/se_kuzureru03 (mp3cut.net).mp3
+  artifactKey: Guid(8bf31f4da9b2b5c4a8783e42940395b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/se_kuzureru03 (mp3cut.net).mp3 using Guid(8bf31f4da9b2b5c4a8783e42940395b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910b5999e39f8dd0d2e77b94bf6cd88d') in 0.016293 seconds
+  Import took 0.020865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Teshi/SE/飛行機上空通過2.mp3
+  artifactKey: Guid(f4453e7c87a44764c96160cd661d07c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/飛行機上空通過2.mp3 using Guid(f4453e7c87a44764c96160cd661d07c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa27795b6a4ae290ec83b26db8549af') in 0.027543 seconds
+  Import took 0.032127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Teshi/SE/風が吹く4.mp3
+  artifactKey: Guid(ba2487af354d39f4b99c43ad0fdd39a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/風が吹く4.mp3 using Guid(ba2487af354d39f4b99c43ad0fdd39a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eedcd785c5e7eaa99a34ba39db80049') in 0.027720 seconds
+  Import took 0.032919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Teshi/SE/ガラスが割れる2.mp3
+  artifactKey: Guid(bdc020867e6d1444a9550d4359c78b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/ガラスが割れる2.mp3 using Guid(bdc020867e6d1444a9550d4359c78b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e1e9cd0453afd9a6714259fccf6e8e') in 0.024684 seconds
+  Import took 0.029808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Teshi/SE/ワシの鳴き声.mp3
+  artifactKey: Guid(d01fc2e66f3e41348ab9d3cb78b26631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/SE/ワシの鳴き声.mp3 using Guid(d01fc2e66f3e41348ab9d3cb78b26631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e208f7d6c2fcc9a2f19d5ad708f624') in 0.028718 seconds
+  Import took 0.033346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.516938 seconds.
+  path: Assets/Teshi/Font/07にくまるフォント.otf
+  artifactKey: Guid(e9a842a617b712241828ad0372237dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/Font/07にくまるフォント.otf using Guid(e9a842a617b712241828ad0372237dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cba56b0e058634ab78ebfe6df6045c') in 0.055354 seconds
+  Import took 0.059766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Teshi/Font/rounded-x-mplus-1c-black.ttf
+  artifactKey: Guid(709efb4de5ea1e6499bd4aa0b2b388cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/Font/rounded-x-mplus-1c-black.ttf using Guid(709efb4de5ea1e6499bd4aa0b2b388cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c359a551c7d7dda2eb0f99bcb40dea0f') in 0.041421 seconds
+  Import took 0.045598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Teshi/Font/k8x12.ttf
+  artifactKey: Guid(7c6732bc6de576e44bd118f784c015e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/Font/k8x12.ttf using Guid(7c6732bc6de576e44bd118f784c015e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ea46765375a5ef4b1057daa5b123a1') in 0.039248 seconds
+  Import took 0.043223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Teshi/Font/misaki_gothic.ttf
+  artifactKey: Guid(46ad4f865966cd54db4ec649ee96175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/Font/misaki_gothic.ttf using Guid(46ad4f865966cd54db4ec649ee96175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03355780ad771d6cd03923992c7be904') in 0.032343 seconds
+  Import took 0.036844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Teshi/Font/JiyunoTsubasa.ttf
+  artifactKey: Guid(fab74d7a11d5a7a49aad53d5a0804309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/Font/JiyunoTsubasa.ttf using Guid(fab74d7a11d5a7a49aad53d5a0804309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917ff48d8000d1fd7591d0c670aa9790') in 0.034129 seconds
+  Import took 0.038481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474264 seconds.
+  path: Assets/Teshi/BGM/魔王魂  カジノ04.mp3
+  artifactKey: Guid(7fbb8eb3991968240a9bb15d054a22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/BGM/魔王魂  カジノ04.mp3 using Guid(7fbb8eb3991968240a9bb15d054a22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbf3b57c2015e7a05c79e2492a97a10') in 0.014690 seconds
+  Import took 0.019123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Teshi/BGM/魔王魂  街06.mp3
+  artifactKey: Guid(ee5e13dc973c8ce4e9a6f5b0369f2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/BGM/魔王魂  街06.mp3 using Guid(ee5e13dc973c8ce4e9a6f5b0369f2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836366a77109479832742cf8900bc7b7') in 0.018247 seconds
+  Import took 0.022263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Teshi/BGM/魔王魂  街12.mp3
+  artifactKey: Guid(937948efc285a8640b1fbc346e37285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/BGM/魔王魂  街12.mp3 using Guid(937948efc285a8640b1fbc346e37285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b57eeb448f88124220524fa5342d6a5') in 0.016834 seconds
+  Import took 0.022057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Teshi/BGM/魔王魂  街11.mp3
+  artifactKey: Guid(4f49e57f0caf5fa4083da3090f6e5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/BGM/魔王魂  街11.mp3 using Guid(4f49e57f0caf5fa4083da3090f6e5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc3c5ddc28d0d8f0a5259faedb0a3ad') in 0.019662 seconds
+  Import took 0.023390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Teshi/BGM/魔王魂  街17.mp3
+  artifactKey: Guid(5df030644c22a2641bacf85088277b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/BGM/魔王魂  街17.mp3 using Guid(5df030644c22a2641bacf85088277b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c35090399bd7226dcc2c06bcc0e5412') in 0.021992 seconds
+  Import took 0.026516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Teshi/BGM/魔王魂  街22.mp3
+  artifactKey: Guid(08781af69b753ec449328052efaf7fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/BGM/魔王魂  街22.mp3 using Guid(08781af69b753ec449328052efaf7fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589525a340e1d9a97e6b34dad293c0ca') in 0.016655 seconds
+  Import took 0.021532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Teshi/BGM/魔王魂  城02.mp3
+  artifactKey: Guid(b6f751a0f2918814da2448e29bab74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teshi/BGM/魔王魂  城02.mp3 using Guid(b6f751a0f2918814da2448e29bab74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f29bfba9798127ef29daa5903c0329') in 0.020415 seconds
+  Import took 0.024678 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
